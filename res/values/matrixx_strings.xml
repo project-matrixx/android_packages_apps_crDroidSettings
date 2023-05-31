@@ -17,4 +17,10 @@
     <string name="freeform_launch_mode_title">Freeform launch mode</string>
     <string name="freeform_launch_mode_1">Native AOSP</string>
     <string name="freeform_launch_mode_2">LMOFreeForm</string>
+    
+    <!-- Hide developer status -->
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
 </resources>
