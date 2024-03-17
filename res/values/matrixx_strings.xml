@@ -49,4 +49,10 @@
     <!-- Contextual dashboard message -->
     <string name="enable_contextual_dashboard_title">Greetings</string>
     <string name="enable_contextual_dashboard_summary">Show contextual greetings on the dashboard</string>
+
+    <!-- Font styles -->
+    <string name="font_styles_title">Font Styles</string>
+    <string name="font_styles_summary">Change system font style</string>
+    <string name="font_preview_text">The quick brown\nfox jumps over the\nlazy dog\n\nABCDEFGHIJKLM\nNOPQRSTUVWXYZ\nabcdefghijkl\nmnopqrstuvwxyz\n1234567890</string>
+    <string name="apply_button_text">Apply</string>
 </resources>
