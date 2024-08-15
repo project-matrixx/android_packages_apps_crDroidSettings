@@ -1349,6 +1349,10 @@
     <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
     <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
 
+    <!-- PIF spoofing -->
+    <string name="pif_spoofing_title">Select PIF JSON File</string>
+    <string name="pif_spoofing_summary">Pick PIF JSON file to be used for spoofing play integrity</string>
+
     <!-- IME Space -->
     <string name="navigation_bar_ime_space_title">IME space</string>
     <string name="navigation_bar_ime_space_summary">Add space below keyboard when navigation hint is disabled</string>
