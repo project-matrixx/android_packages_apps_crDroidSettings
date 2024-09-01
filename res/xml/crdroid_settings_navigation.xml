@@ -22,13 +22,11 @@
 
     <SwitchPreferenceCompat
         android:key="navbar_visibility"
-        android:icon="@drawable/ic_navbar"
         android:title="@string/navbar_visibility_title"
         android:summary="@string/navbar_visibility_summary" />
 
     <com.crdroid.settings.preferences.SystemSettingSwitchPreference
         android:key="pixel_nav_animation"
-        android:icon="@drawable/ic_google_circles"
         android:title="@string/pixel_navbar_anim_title"
         android:summary="@string/pixel_navbar_anim_summary"
         android:defaultValue="true"
@@ -41,14 +39,12 @@
 
         <lineageos.preference.LineageSystemSettingSwitchPreference
             android:key="navigation_bar_menu_arrow_keys"
-            android:icon="@drawable/ic_arrow_keys"
             android:title="@string/navbar_arrow_keys_title"
             android:summary="@string/navbar_arrow_keys_summary"
             android:defaultValue="false" />
 
         <com.crdroid.settings.preferences.SecureSettingListPreference
             android:key="navbar_layout_views"
-            android:icon="@drawable/ic_navbar_layout"
             android:title="@string/navbar_layout_title"
             android:summary="%s"
             android:entries="@array/navbar_layout_entries"
@@ -57,7 +53,6 @@
 
         <com.crdroid.settings.preferences.SecureSettingSwitchPreference
             android:key="navbar_inverse_layout"
-            android:icon="@drawable/ic_navbar_layout"
             android:title="@string/navbar_invert_layout_title"
             android:summary="@string/navbar_invert_layout_summary"
             android:defaultValue="false" />
@@ -71,7 +66,6 @@
 
          <ListPreference
             android:key="navigation_back_long_press"
-            android:icon="@drawable/ic_single_tap"
             android:dialogTitle="@string/navbar_back_long_press_title"
             android:title="@string/navbar_back_long_press_title"
             android:entries="@array/hardware_keys_action_entries"
@@ -80,7 +74,6 @@
 
          <!--<ListPreference
             android:key="navigation_back_double_tap"
-            android:icon="@drawable/ic_double_tap"
             android:dialogTitle="@string/navbar_back_double_tap_title"
             android:title="@string/navbar_back_double_tap_title"
             android:entries="@array/hardware_keys_action_entries"
@@ -89,7 +82,6 @@
 
         <ListPreference
             android:key="navigation_home_long_press"
-            android:icon="@drawable/ic_single_tap"
             android:dialogTitle="@string/navbar_home_long_press_title"
             android:title="@string/navbar_home_long_press_title"
             android:entries="@array/hardware_keys_action_entries"
@@ -98,7 +90,6 @@
 
          <ListPreference
             android:key="navigation_home_double_tap"
-            android:icon="@drawable/ic_double_tap"
             android:dialogTitle="@string/navbar_home_double_tap_title"
             android:title="@string/navbar_home_double_tap_title"
             android:entries="@array/hardware_keys_action_entries"
@@ -107,7 +98,6 @@
 
          <ListPreference
             android:key="navigation_app_switch_long_press"
-            android:icon="@drawable/ic_single_tap"
             android:dialogTitle="@string/navbar_app_switch_long_press_title"
             android:title="@string/navbar_app_switch_long_press_title"
             android:entries="@array/hardware_keys_action_entries"
@@ -116,7 +106,6 @@
 
          <ListPreference
             android:key="navigation_app_switch_double_tap"
-            android:icon="@drawable/ic_double_tap"
             android:dialogTitle="@string/navbar_app_switch_double_tap_title"
             android:title="@string/navbar_app_switch_double_tap_title"
             android:entries="@array/hardware_keys_action_entries"
@@ -125,7 +114,6 @@
 
          <ListPreference
             android:key="navigation_bar_corner_long_swipe"
-            android:icon="@drawable/ic_swipe_up"
             android:dialogTitle="@string/navbar_corner_long_swipe_title"
             android:title="@string/navbar_corner_long_swipe_title"
             android:entries="@array/hardware_keys_action_entries"
@@ -134,7 +122,6 @@
 
          <ListPreference
             android:key="navigation_bar_edge_long_swipe"
-            android:icon="@drawable/ic_swipe_right"
             android:dialogTitle="@string/navbar_edge_long_swipe_title"
             android:title="@string/navbar_edge_long_swipe_title"
             android:entries="@array/hardware_keys_action_entries"
