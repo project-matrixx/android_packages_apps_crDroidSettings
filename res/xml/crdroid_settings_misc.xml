@@ -19,6 +19,9 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/misc_title">
 
+    <PreferenceCategory
+         android:title="@string/gaming_category">
+
     <!-- Gaming mode -->
     <Preference
         android:key="gaming_mode"
@@ -30,6 +33,22 @@
             android:targetPackage="io.chaldeaprjkt.gamespace"
             android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
     </Preference>
+
+    <com.crdroid.settings.preferences.SystemPropertySwitchPreference
+       android:key="persist.sys.gameprops.enabled"
+       android:title="@string/gameprops_title"
+       android:summary="@string/gameprops_summary"
+       android:defaultValue="false" />
+
+   <Preference
+       android:key="game_props_json_file_preference"
+       android:title="@string/gameprops_load_json_title"
+       android:summary="@string/gameprops_load_json_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+         android:title="@string/spoofing_category">
 
     <!-- Google Play Integrity -->
     <com.crdroid.settings.preferences.SystemPropertySwitchPreference
@@ -43,28 +62,17 @@
          android:title="@string/pif_spoofing_title"
          android:summary="@string/pif_spoofing_summary"/>
 
-    <!-- Unlock FPS for specific games -->
-    <!--com.crdroid.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.pixelprops.games"
-        android:title="@string/use_games_spoof_title"
-        android:summary="@string/use_games_spoof_summary" /-->
-
-    <com.crdroid.settings.preferences.SystemPropertySwitchPreference
-       android:key="persist.sys.gameprops.enabled"
-       android:title="@string/gameprops_title"
-       android:summary="@string/gameprops_summary"
-       android:defaultValue="false" />
-
-   <Preference
-       android:key="game_props_json_file_preference"
-       android:title="@string/gameprops_load_json_title"
-       android:summary="@string/gameprops_load_json_summary" />
-
     <!-- displaying current PIF properties -->
     <Preference
          android:key="show_pif_properties"
          android:title="@string/show_pif_properties_title"
          android:summary="@string/show_pif_properties_summary"/>
+
+    <!-- Unlock FPS for specific games -->
+    <!--com.crdroid.settings.preferences.SystemPropertySwitchPreference
+        android:key="persist.sys.pixelprops.games"
+        android:title="@string/use_games_spoof_title"
+        android:summary="@string/use_games_spoof_summary" /-->
 
     <!-- Unlimited google photos storage -->
     <com.crdroid.settings.preferences.SystemPropertySwitchPreference
@@ -86,6 +94,7 @@
         android:title="@string/gms_enabled_title"
         android:summary="@string/gms_enabled_summary"
         android:fragment="com.crdroid.settings.fragments.misc.GmsSwitch"/> -->
+    </PreferenceCategory>
 
     <!-- Parallel space
     <Preference
@@ -98,32 +107,8 @@
             android:targetClass="ink.kscope.parallelspace.MainActivity" />
     </Preference> -->
 
-    <com.crdroid.settings.preferences.GlobalSettingSwitchPreference
-        android:key="pm_downgrade_allowed"
-        android:title="@string/app_downgrade_title"
-        android:summary="@string/app_downgrade_summary"
-        android:defaultValue="false"/>
-
-    <!-- Sidebar -->
-    <Preference
-        android:key="sidebar"
-        android:title="@string/sidebar_title"
-        android:summary="@string/sidebar_summary">
-
-        <intent
-            android:action="android.intent.action.IA_SETTINGS"
-            android:targetPackage="com.libremobileos.sidebar"
-            android:targetClass="com.libremobileos.sidebar.ui.sidebar.SidebarSettingsActivity" />
-    </Preference>
-
-    <!-- Three fingers swipe action -->
-    <ListPreference
-        android:key="three_fingers_swipe"
-        android:dialogTitle="@string/three_fingers_swipe_title"
-        android:title="@string/three_fingers_swipe_title"
-        android:entries="@array/hardware_keys_action_entries"
-        android:entryValues="@array/hardware_keys_action_values"
-        android:persistent="false" />
+    <PreferenceCategory
+         android:title="@string/security_category">
 
     <com.crdroid.settings.preferences.SecureSettingSwitchPreference
         android:key="window_ignore_secure"
@@ -131,12 +116,16 @@
         android:summary="@string/laboratory_ignore_window_secure_summary"
         android:defaultValue="false" />
 
-
     <com.crdroid.settings.preferences.SystemSettingSwitchPreference
         android:key="hide_screen_capture_status"
         android:title="@string/hide_screen_capture_status_title"
         android:summary="@string/hide_screen_capture_status_summary"
         android:defaultValue="false"/>
+    
+    </PreferenceCategory>
+
+    <PreferenceCategory
+         android:title="@string/other_category">
 
     <!-- Sensor block per package -->
     <Preference
@@ -152,4 +141,32 @@
         android:summary="@string/pocket_judge_summary"
         android:defaultValue="false" />
 
+    <!-- Three-fingers-swipe to screenshot -->
+    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        android:key="three_finger_gesture"
+        android:title="@string/three_finger_gesture"
+        android:summary="@string/three_finger_gesture_summary"
+        android:defaultValue="false" />
+
+    <!-- Application Downgrade-->
+    <com.crdroid.settings.preferences.GlobalSettingSwitchPreference
+        android:key="pm_downgrade_allowed"
+        android:icon="@drawable/ic_arrow_down_box"
+        android:title="@string/app_downgrade_title"
+        android:summary="@string/app_downgrade_summary"
+        android:defaultValue="false"/>
+
+    <!-- Sidebar -->
+    <Preference
+        android:key="sidebar"
+        android:icon="@drawable/ic_floating"
+        android:title="@string/sidebar_title"
+        android:summary="@string/sidebar_summary">
+
+        <intent
+            android:action="android.intent.action.IA_SETTINGS"
+            android:targetPackage="com.libremobileos.sidebar"
+            android:targetClass="com.libremobileos.sidebar.ui.sidebar.SidebarSettingsActivity" />
+    </Preference>
+    </PreferenceCategory>
 </PreferenceScreen>
