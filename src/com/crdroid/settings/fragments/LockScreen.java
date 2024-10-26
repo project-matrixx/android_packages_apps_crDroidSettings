@@ -295,6 +295,8 @@ public class LockScreen extends SettingsPreferenceFragment
                 Settings.System.LOCK_SCREEN_CUSTOM_NOTIF, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LOCKSCREEN_MAX_NOTIF_CONFIG, 3, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.LOCKSCREEN_SHOW_CARRIER, 1, UserHandle.USER_CURRENT);
         UdfpsAnimation.reset(mContext);
         UdfpsIconPicker.reset(mContext);
     }
