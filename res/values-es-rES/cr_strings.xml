@@ -236,6 +236,8 @@ Mantén presionado para establecer</string>
     <string name="monet_engine_luminance_factor_summary">Valores más altos son colores más brillantes</string>
     <string name="monet_engine_chroma_factor_title">Factor cromático</string>
     <string name="monet_engine_chroma_factor_summary">Valores más altos son colores más fuertes</string>
+    <string name="monet_engine_whole_palette_title">Toda la paleta</string>
+    <string name="monet_engine_whole_palette_summary">Hacer que la selección de luminancia y croma también afecte a los colores secundarios</string>
     <string name="monet_engine_tint_background_title">Tinte de fondo</string>
     <string name="monet_engine_tint_background_summary">Hacer que la luminosidad y la selección cromática también afecten el color del fondo</string>
     <string name="monet_engine_style_title">Estilo del tema</string>
@@ -245,6 +247,7 @@ Mantén presionado para establecer</string>
     <string name="monet_engine_style_spritz">Chorro</string>
     <string name="monet_engine_style_rainbow">Arcoiris</string>
     <string name="monet_engine_style_fruit_salad">Ensalada de fruta</string>
+    <string name="monet_engine_style_monochromatic">Monocromático</string>
     <string name="monet_engine_color_source_title">Fuente de color</string>
     <string name="monet_engine_color_source_both">Ambos (por defecto)</string>
     <string name="monet_engine_color_source_home">Fondo de pantalla de la casa</string>
@@ -520,6 +523,7 @@ Mantén presionado para establecer</string>
     <string name="navbar_app_switch_long_press_title">Últimas pulsaciones largas</string>
     <string name="navbar_app_switch_double_tap_title">Doble toque en el botón recientes</string>
     <string name="navbar_edge_long_swipe_title">Deslizar mucho hasta el borde</string>
+    <string name="navbar_corner_long_swipe_title">Deslizar desde la esquina inferior</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Detección de bolsillo</string>
     <string name="pocket_judge_summary">Bloquear pantalla y botones cuando el dispositivo esté en un bolsillo</string>
@@ -1137,7 +1141,10 @@ Mantén presionado para establecer</string>
     <!-- IME Space -->
     <string name="navigation_bar_ime_space_title">Espacio bajo el teclado</string>
     <string name="navigation_bar_ime_space_summary">Añadir espacio debajo del teclado cuando la sugerencia de navegación está deshabilitada</string>
-    <!-- QS Bluetooth auto on -->
-    <string name="qs_bt_auto_on_title">Bluetooth automático activado</string>
-    <string name="qs_bt_auto_on_summary">Activar siempre el Bluetooth al presionar su ajuste rápido</string>
+    <!-- QS Bluetooth Dialog -->
+    <string name="qs_bt_show_dialog_title">Diálogo de acceso a Bluetooth</string>
+    <string name="qs_bt_show_dialog_summary">Mostrar opciones de Bluetooth o activar/desactivar Bluetooth al pulsar el acceso rápido de Bluetooth</string>
+    <!-- Carrier name on lockscreen -->
+    <string name="lockscreen_show_carrier_title">Nombre de la operadora</string>
+    <string name="lockscreen_show_carrier_summary">Mostrar nombre de la operadora en la barra de estado</string>
 </resources>

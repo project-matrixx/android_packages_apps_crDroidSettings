@@ -235,6 +235,8 @@
     <string name="monet_engine_luminance_factor_summary">Υψηλότερες τιμές παράγουν φωτεινότερα χρώματα</string>
     <string name="monet_engine_chroma_factor_title">Συντελεστής χρωματισμού</string>
     <string name="monet_engine_chroma_factor_summary">Υψηλότερες τιμές παράγουν ισχυρότερα χρώματα</string>
+    <string name="monet_engine_whole_palette_title">Whole palette</string>
+    <string name="monet_engine_whole_palette_summary">Make Luminance and Chroma selection affect secondary colors as well</string>
     <string name="monet_engine_tint_background_title">Απόχρωση φόντου</string>
     <string name="monet_engine_tint_background_summary">Κάντε τη φωτεινότητα και την επιλογή χρώματος να επηρεάσουν επίσης τα χρώματα του φόντου</string>
     <string name="monet_engine_style_title">Στυλ θέματος</string>
@@ -244,6 +246,7 @@
     <string name="monet_engine_style_spritz">Spritz</string>
     <string name="monet_engine_style_rainbow">Ουράνιο τόξο</string>
     <string name="monet_engine_style_fruit_salad">Φρουτοσαλάτα</string>
+    <string name="monet_engine_style_monochromatic">Monochromatic</string>
     <string name="monet_engine_color_source_title">Πηγή χρώματος</string>
     <string name="monet_engine_color_source_both">Και τα δύο (Προεπιλογή)</string>
     <string name="monet_engine_color_source_home">Ταπετσαρία Αρχικής οθόνης</string>
@@ -519,6 +522,7 @@
     <string name="navbar_app_switch_long_press_title">Παρατεταμένο πάτημα προσφάτων</string>
     <string name="navbar_app_switch_double_tap_title">Διπλό πάτημα πρόσφατων</string>
     <string name="navbar_edge_long_swipe_title">Μακριά σάρωση άκρων</string>
+    <string name="navbar_corner_long_swipe_title">Bottom corner swipe up</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Ανίχνευση τσέπης</string>
     <string name="pocket_judge_summary">Μπλοκάρισμα οθόνης και πλήκτρων όταν η συσκευή είναι στην τσέπη</string>
@@ -1136,7 +1140,10 @@
     <!-- IME Space -->
     <string name="navigation_bar_ime_space_title">Χώρος IME</string>
     <string name="navigation_bar_ime_space_summary">Προσθήκη χώρου κάτω από το πληκτρολόγιο όταν η υπόδειξη πλοήγησης είναι απενεργοποιημένη</string>
-    <!-- QS Bluetooth auto on -->
-    <string name="qs_bt_auto_on_title">Αυτόματη ενεργοποίηση Bluetooth</string>
-    <string name="qs_bt_auto_on_summary">Να ενεργοποιείται πάντα το Bluetooth όταν πατάτε το πλακίδιο Γρήγορων ρυθμίσεων</string>
+    <!-- QS Bluetooth Dialog -->
+    <string name="qs_bt_show_dialog_title">Bluetooth tile dialog</string>
+    <string name="qs_bt_show_dialog_summary">Show bluetooth dialog or toggle bluetooth state on tapping bluetooth tile</string>
+    <!-- Carrier name on lockscreen -->
+    <string name="lockscreen_show_carrier_title">Carrier name</string>
+    <string name="lockscreen_show_carrier_summary">Display carrier name in the status bar</string>
 </resources>

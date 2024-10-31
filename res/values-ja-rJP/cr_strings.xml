@@ -234,6 +234,8 @@
     <string name="monet_engine_luminance_factor_summary">値が高いほど明るい色になります</string>
     <string name="monet_engine_chroma_factor_title">彩度係数</string>
     <string name="monet_engine_chroma_factor_summary">値が高いほど色が濃くなります</string>
+    <string name="monet_engine_whole_palette_title">パレット全体</string>
+    <string name="monet_engine_whole_palette_summary">輝度とクロマの選択をセカンダリカラーにも反映させます</string>
     <string name="monet_engine_tint_background_title">背景を明るくする</string>
     <string name="monet_engine_tint_background_summary">選択した輝度と彩度が背景色にも影響するようにします</string>
     <string name="monet_engine_style_title">テーマスタイル</string>
@@ -243,6 +245,7 @@
     <string name="monet_engine_style_spritz">Spritz</string>
     <string name="monet_engine_style_rainbow">Rainbow</string>
     <string name="monet_engine_style_fruit_salad">Fruit Salad</string>
+    <string name="monet_engine_style_monochromatic">モノクロ</string>
     <string name="monet_engine_color_source_title">カラーソース</string>
     <string name="monet_engine_color_source_both">両方 (既定)</string>
     <string name="monet_engine_color_source_home">ホーム画面の壁紙</string>
@@ -518,6 +521,7 @@
     <string name="navbar_app_switch_long_press_title">アプリ履歴長押し</string>
     <string name="navbar_app_switch_double_tap_title">アプリ履歴のダブルタップ</string>
     <string name="navbar_edge_long_swipe_title">エッジ長スワイプ</string>
+    <string name="navbar_corner_long_swipe_title">下の角を上にスワイプ</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">ポケット検出</string>
     <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化します</string>
@@ -1133,7 +1137,10 @@
     <!-- IME Space -->
     <string name="navigation_bar_ime_space_title">IME スペース</string>
     <string name="navigation_bar_ime_space_summary">ナビゲーションヒントが無効の時、キーボードの下にスペースを追加します</string>
-    <!-- QS Bluetooth auto on -->
-    <string name="qs_bt_auto_on_title">自動 Bluetooth オン</string>
-    <string name="qs_bt_auto_on_summary">Bluetooth クイック設定タイルを押したときに Bluetooth を オンにします</string>
+    <!-- QS Bluetooth Dialog -->
+    <string name="qs_bt_show_dialog_title">Bluetooth タイルダイアログ</string>
+    <string name="qs_bt_show_dialog_summary">Bluetooth タイルをタップしたとき、Bluetooth ダイアログを表示するか Bluetooth の状態を切り替えます</string>
+    <!-- Carrier name on lockscreen -->
+    <string name="lockscreen_show_carrier_title">キャリア名</string>
+    <string name="lockscreen_show_carrier_summary">ステータスバーにキャリア名を表示します</string>
 </resources>

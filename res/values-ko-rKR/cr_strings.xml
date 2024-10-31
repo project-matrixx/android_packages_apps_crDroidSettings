@@ -234,6 +234,8 @@
     <string name="monet_engine_luminance_factor_summary">높은 값은 더 밝은 색을 만듬</string>
     <string name="monet_engine_chroma_factor_title">크로마 팩터</string>
     <string name="monet_engine_chroma_factor_summary">높은 값은 더 강한 색을 만듬</string>
+    <string name="monet_engine_whole_palette_title">Whole palette</string>
+    <string name="monet_engine_whole_palette_summary">Make Luminance and Chroma selection affect secondary colors as well</string>
     <string name="monet_engine_tint_background_title">배경 틴트</string>
     <string name="monet_engine_tint_background_summary">밝기와 채도가 배경색에 영향을 미치도록 함</string>
     <string name="monet_engine_style_title">테마 스타일</string>
@@ -243,6 +245,7 @@
     <string name="monet_engine_style_spritz">스프리츠</string>
     <string name="monet_engine_style_rainbow">무지개</string>
     <string name="monet_engine_style_fruit_salad">과일 샐러드</string>
+    <string name="monet_engine_style_monochromatic">Monochromatic</string>
     <string name="monet_engine_color_source_title">색상 소스</string>
     <string name="monet_engine_color_source_both">모두(기본값)</string>
     <string name="monet_engine_color_source_home">홈 배경 화면</string>
@@ -518,6 +521,7 @@
     <string name="navbar_app_switch_long_press_title">최근 실행한 앱 - 길게 누르기</string>
     <string name="navbar_app_switch_double_tap_title">최근앱 두 번 탭</string>
     <string name="navbar_edge_long_swipe_title">가장자리로 길게 스와이프</string>
+    <string name="navbar_corner_long_swipe_title">Bottom corner swipe up</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">주머니 감지</string>
     <string name="pocket_judge_summary">기기가 주머니에 있을 때 화면과 버튼 입력을 방지합니다.</string>
@@ -1042,7 +1046,7 @@
     <!-- App lock -->
     <string name="app_lock_title">앱 잠금</string>
     <plurals name="app_lock_summary">
-        <item quantity="other"><xliff:g example="2" id="Number of applications">%1$d</xliff:g>개의 앱이 보호되고 있습니다</item>
+        <item quantity="other"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> 애플리케이션이 보호됨</item>
     </plurals>
     <string name="app_lock_authentication_dialog_title">잠금 해제</string>
     <string name="enable_debugging">디버깅 활성화</string>
@@ -1132,7 +1136,10 @@
     <!-- IME Space -->
     <string name="navigation_bar_ime_space_title">IME 공간</string>
     <string name="navigation_bar_ime_space_summary">탐색 힌트가 비활성화되었을 때 키보드 아래에 공간 추가하기</string>
-    <!-- QS Bluetooth auto on -->
-    <string name="qs_bt_auto_on_title">자동 블루투스 켜기</string>
-    <string name="qs_bt_auto_on_summary">Bluetooth QS 타일을 누를 때는 항상 블루투스를 켭니다.</string>
+    <!-- QS Bluetooth Dialog -->
+    <string name="qs_bt_show_dialog_title">Bluetooth tile dialog</string>
+    <string name="qs_bt_show_dialog_summary">Show bluetooth dialog or toggle bluetooth state on tapping bluetooth tile</string>
+    <!-- Carrier name on lockscreen -->
+    <string name="lockscreen_show_carrier_title">Carrier name</string>
+    <string name="lockscreen_show_carrier_summary">Display carrier name in the status bar</string>
 </resources>

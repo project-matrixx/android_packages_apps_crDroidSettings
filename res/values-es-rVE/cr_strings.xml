@@ -236,6 +236,8 @@ Mantén presionado para establecer</string>
     <string name="monet_engine_luminance_factor_summary">Valores más altos producen colores más brillantes</string>
     <string name="monet_engine_chroma_factor_title">Factor cromático</string>
     <string name="monet_engine_chroma_factor_summary">Valores más altos producen colores más fuertes</string>
+    <string name="monet_engine_whole_palette_title">Toda la paleta</string>
+    <string name="monet_engine_whole_palette_summary">Hacer que la selección de luminancia y croma también afecte a los colores secundarios</string>
     <string name="monet_engine_tint_background_title">Tinte de fondo</string>
     <string name="monet_engine_tint_background_summary">Hacer que la luminosidad y la selección cromática también afecten el color del fondo</string>
     <string name="monet_engine_style_title">Estilo del tema</string>
@@ -245,6 +247,7 @@ Mantén presionado para establecer</string>
     <string name="monet_engine_style_spritz">Spritz</string>
     <string name="monet_engine_style_rainbow">Arcoiris</string>
     <string name="monet_engine_style_fruit_salad">Ensalada de frutas</string>
+    <string name="monet_engine_style_monochromatic">Monocromático</string>
     <string name="monet_engine_color_source_title">Fuente de color</string>
     <string name="monet_engine_color_source_both">Ambos (por defecto)</string>
     <string name="monet_engine_color_source_home">Fondo de pantalla de inicio</string>
@@ -505,7 +508,7 @@ Mantén presionado para establecer</string>
     <string name="navbar_arrow_keys_title">Mostrar flechas al escribir</string>
     <string name="navbar_arrow_keys_summary">Mostrar cursores izquierdo y derecho al escribir. Anula el conmutador IME.</string>
     <string name="navbar_layout_title">Diseño</string>
-    <string name="navbar_layout_normal">Normal</string>
+    <string name="navbar_layout_normal">Predeterminado</string>
     <string name="navbar_layout_compact">Compacto</string>
     <string name="navbar_layout_expanded">Expandido</string>
     <string name="navbar_layout_leftleaning">A la izquierda</string>
@@ -520,6 +523,7 @@ Mantén presionado para establecer</string>
     <string name="navbar_app_switch_long_press_title">Últimas pulsaciones largas</string>
     <string name="navbar_app_switch_double_tap_title">Doble toque en el botón recientes</string>
     <string name="navbar_edge_long_swipe_title">Deslizar mucho hasta el borde</string>
+    <string name="navbar_corner_long_swipe_title">Deslizar desde la esquina inferior</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Detección de bolsillo</string>
     <string name="pocket_judge_summary">Bloquear pantalla y botones cuando el dispositivo esté en un bolsillo</string>
@@ -579,17 +583,17 @@ Mantén presionado para establecer</string>
     <string name="pulse_length_always_on">Siempre encendido</string>
     <string name="pulse_length_very_short">Muy corto</string>
     <string name="pulse_length_short">Corto</string>
-    <string name="pulse_length_normal">Normal</string>
+    <string name="pulse_length_normal">Predeterminado</string>
     <string name="pulse_length_long">Largo</string>
     <string name="pulse_length_very_long">Muy largo</string>
     <string name="pulse_speed_very_fast">Muy rápido</string>
     <string name="pulse_speed_fast">Rápido</string>
-    <string name="pulse_speed_normal">Normal</string>
+    <string name="pulse_speed_normal">Predeterminado</string>
     <string name="pulse_speed_slow">Lento</string>
     <string name="pulse_speed_very_slow">Muy lento</string>
     <!-- Common light settings strings -->
     <string name="light_brightness_title">Niveles de brillo</string>
-    <string name="light_brightness_normal">Normal</string>
+    <string name="light_brightness_normal">Predeterminado</string>
     <string name="light_brightness_zen">No molestar</string>
     <!-- Battery light settings -->
     <string name="light_brightness_category">Configuración del brillo del led de notificación</string>
@@ -1136,7 +1140,10 @@ Mantén presionado para establecer</string>
     <!-- IME Space -->
     <string name="navigation_bar_ime_space_title">Espacio IME</string>
     <string name="navigation_bar_ime_space_summary">Añadir espacio debajo del teclado cuando la pista de navegación está deshabilitada</string>
-    <!-- QS Bluetooth auto on -->
-    <string name="qs_bt_auto_on_title">Bluetooth automático activado</string>
-    <string name="qs_bt_auto_on_summary">Activar siempre el Bluetooth al presionar su ajuste rápido</string>
+    <!-- QS Bluetooth Dialog -->
+    <string name="qs_bt_show_dialog_title">Diálogo de acceso a Bluetooth</string>
+    <string name="qs_bt_show_dialog_summary">Mostrar opciones de Bluetooth o activar/desactivar Bluetooth al pulsar el acceso rápido de Bluetooth</string>
+    <!-- Carrier name on lockscreen -->
+    <string name="lockscreen_show_carrier_title">Nombre de la operadora</string>
+    <string name="lockscreen_show_carrier_summary">Mostrar nombre de la operadora en la barra de estado</string>
 </resources>

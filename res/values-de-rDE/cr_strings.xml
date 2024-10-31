@@ -235,6 +235,8 @@
     <string name="monet_engine_luminance_factor_summary">Höhere Werte erzeugen hellere Farben</string>
     <string name="monet_engine_chroma_factor_title">Sättigungsfaktor</string>
     <string name="monet_engine_chroma_factor_summary">Höhere Werte erzeugen kräftigere Farben</string>
+    <string name="monet_engine_whole_palette_title">Gesamte Palette</string>
+    <string name="monet_engine_whole_palette_summary">Leuchtkraft- und Sättigungseinstellung Einfluss auf die Sekundärfarben nehmen lassen</string>
     <string name="monet_engine_tint_background_title">Hintergrund einfärben</string>
     <string name="monet_engine_tint_background_summary">Leuchtkraft- und Sättigungseinstellung Einfluss auf die Farben des Hintergrundbilds nehmen lassen</string>
     <string name="monet_engine_style_title">Designstil</string>
@@ -244,6 +246,7 @@
     <string name="monet_engine_style_spritz">Spritz</string>
     <string name="monet_engine_style_rainbow">Regenbogen</string>
     <string name="monet_engine_style_fruit_salad">Obstsalat</string>
+    <string name="monet_engine_style_monochromatic">Einfarbig</string>
     <string name="monet_engine_color_source_title">Farbquelle</string>
     <string name="monet_engine_color_source_both">Beide (Standard)</string>
     <string name="monet_engine_color_source_home">Hintergrundbild des Startbildschirms</string>
@@ -519,6 +522,7 @@
     <string name="navbar_app_switch_long_press_title">Anwendungsverlaufstaste (Gedrückthalten)</string>
     <string name="navbar_app_switch_double_tap_title">Doppeltipp auf Anwendungsverlaufstaste</string>
     <string name="navbar_edge_long_swipe_title">Langes Vom-Rand-Wischen</string>
+    <string name="navbar_corner_long_swipe_title">Von unterer Ecke nach oben wischen</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Taschenerkennung</string>
     <string name="pocket_judge_summary">Bildschirm- und Tasteneingaben blockieren, wenn das Gerät in der Tasche steckt</string>
@@ -1013,8 +1017,8 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <string name="pi_spoof_title">Spoofing für Google Play Integrity</string>
     <string name="pi_spoof_summary">Google Play Integrity ein anderes Gerätemodell vortäuschen</string>
     <!-- Captive portal -->
-    <string name="captive_portal_title">Verbindungen prüfen</string>
-    <string name="captive_portal_summary">Feststellen, ob das Gerät eine Verbindung zum Internet herstellen kann, indem es Google kontaktiert. Wird auch zur Erkennung unverschlüsselter Portale verwendet.</string>
+    <string name="captive_portal_title">Verbindungsprüfung</string>
+    <string name="captive_portal_summary">Durch kurze Verbindung mit Google feststellen, ob das Gerät Internetzugriff hat. Dabei können auch „Captive Portals“ erkannt werden.</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Statistik zurücksetzen?</string>
     <string name="battery_stats_message">Daten zur Akkunutzung gehen verloren</string>
@@ -1137,7 +1141,10 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <!-- IME Space -->
     <string name="navigation_bar_ime_space_title">IME-Abstand</string>
     <string name="navigation_bar_ime_space_summary">Zusätzlicher Abstand unter Tastatur, wenn die angedeutete Navigationsleiste deaktiviert ist</string>
-    <!-- QS Bluetooth auto on -->
-    <string name="qs_bt_auto_on_title">Bluetooth automatisch einschalten</string>
-    <string name="qs_bt_auto_on_summary">Bluetooth beim Antippen der Schnelleinstellungskachel immer aktivieren</string>
+    <!-- QS Bluetooth Dialog -->
+    <string name="qs_bt_show_dialog_title">Bluetooth-Kachel-Dialogfeld</string>
+    <string name="qs_bt_show_dialog_summary">Beim Tippen der Bluetooth-Kachel Bluetooth-Dialogfeld anzeigen oder Bluetooth ein-/ausschalten</string>
+    <!-- Carrier name on lockscreen -->
+    <string name="lockscreen_show_carrier_title">Name des Mobilfunkanbieters</string>
+    <string name="lockscreen_show_carrier_summary">Mobilfunkanbieter in Statusleiste anzeigen</string>
 </resources>

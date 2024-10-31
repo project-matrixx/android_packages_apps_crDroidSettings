@@ -234,6 +234,8 @@
     <string name="monet_engine_luminance_factor_summary">較高的亮度會使色彩看起來較亮</string>
     <string name="monet_engine_chroma_factor_title">色彩濃度</string>
     <string name="monet_engine_chroma_factor_summary">較高的彩度會使色彩看起來更鮮明</string>
+    <string name="monet_engine_whole_palette_title">整體色盤</string>
+    <string name="monet_engine_whole_palette_summary">讓亮度和色度選擇也使用整體色盤的次要顏色</string>
     <string name="monet_engine_tint_background_title">背景著色</string>
     <string name="monet_engine_tint_background_summary">使背景色彩也套用自訂的亮度及彩度</string>
     <string name="monet_engine_style_title">主題風格</string>
@@ -243,6 +245,7 @@
     <string name="monet_engine_style_spritz">噴灑</string>
     <string name="monet_engine_style_rainbow">彩虹</string>
     <string name="monet_engine_style_fruit_salad">水果沙拉</string>
+    <string name="monet_engine_style_monochromatic">單色調</string>
     <string name="monet_engine_color_source_title">色彩來源</string>
     <string name="monet_engine_color_source_both">兩者 (預設)</string>
     <string name="monet_engine_color_source_home">主畫面桌布</string>
@@ -518,6 +521,7 @@
     <string name="navbar_app_switch_long_press_title">長按多工鍵</string>
     <string name="navbar_app_switch_double_tap_title">按兩下總覽鍵</string>
     <string name="navbar_edge_long_swipe_title">向邊緣划長距離</string>
+    <string name="navbar_corner_long_swipe_title">從螢幕底部角落向上滑動</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">口袋防誤觸偵測</string>
     <string name="pocket_judge_summary">當裝置位於口袋中時防止螢幕和按鍵輸入</string>
@@ -1133,7 +1137,10 @@
     <!-- IME Space -->
     <string name="navigation_bar_ime_space_title">輸入法按鍵空間</string>
     <string name="navigation_bar_ime_space_summary">導覽列提示關閉時在鍵盤下方新增空間</string>
-    <!-- QS Bluetooth auto on -->
-    <string name="qs_bt_auto_on_title">自動開啟藍牙</string>
-    <string name="qs_bt_auto_on_summary">點擊藍牙快速設定圖塊時始終開啟藍牙</string>
+    <!-- QS Bluetooth Dialog -->
+    <string name="qs_bt_show_dialog_title">藍牙快速設定對話框</string>
+    <string name="qs_bt_show_dialog_summary">點選藍牙快速設定圖示，可開啟藍牙設定或直接開啟/關閉藍牙。</string>
+    <!-- Carrier name on lockscreen -->
+    <string name="lockscreen_show_carrier_title">電信商名稱</string>
+    <string name="lockscreen_show_carrier_summary">在狀態列中顯示電信商名稱</string>
 </resources>

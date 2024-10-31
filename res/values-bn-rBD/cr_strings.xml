@@ -235,22 +235,25 @@
     <string name="monet_engine_luminance_factor_summary">উচ্চ মান উজ্জ্বল রং উৎপাদন করে</string>
     <string name="monet_engine_chroma_factor_title">ক্রোমা ফ্যাক্টর</string>
     <string name="monet_engine_chroma_factor_summary">উচ্চ মান শক্তিশালী রং উৎপাদন করে</string>
+    <string name="monet_engine_whole_palette_title">Whole palette</string>
+    <string name="monet_engine_whole_palette_summary">Make Luminance and Chroma selection affect secondary colors as well</string>
     <string name="monet_engine_tint_background_title">রঙিন ব্যাকগ্রাউন্ড</string>
     <string name="monet_engine_tint_background_summary">উজ্জ্বলতা এবং ক্রোমা নির্বাচন পটভূমির রঙগুলিকেও প্রভাবিত করে</string>
     <string name="monet_engine_style_title">থিম স্টাইল</string>
     <string name="monet_engine_style_tonal_spot">টোনাল স্পট (ডিফল্ট)</string>
-    <string name="monet_engine_style_vibrant">Vibrant</string>
-    <string name="monet_engine_style_expressive">Expressive</string>
-    <string name="monet_engine_style_spritz">Spritz</string>
-    <string name="monet_engine_style_rainbow">Rainbow</string>
-    <string name="monet_engine_style_fruit_salad">Fruit Salad</string>
-    <string name="monet_engine_color_source_title">Color source</string>
-    <string name="monet_engine_color_source_both">Both (Default)</string>
-    <string name="monet_engine_color_source_home">Home wallpaper</string>
-    <string name="monet_engine_color_source_lock">Lock wallpaper</string>
-    <string name="monet_engine_color_source_preset">Preset</string>
+    <string name="monet_engine_style_vibrant">ভাইব্রেট</string>
+    <string name="monet_engine_style_expressive">অভিব্যক্তিপূর্ণ</string>
+    <string name="monet_engine_style_spritz">স্প্রিটজ</string>
+    <string name="monet_engine_style_rainbow">রংধনু</string>
+    <string name="monet_engine_style_fruit_salad">ফলের সালাদ</string>
+    <string name="monet_engine_style_monochromatic">Monochromatic</string>
+    <string name="monet_engine_color_source_title">রঙের উৎস</string>
+    <string name="monet_engine_color_source_both">উভয় (ডিফল্ট)</string>
+    <string name="monet_engine_color_source_home">হোম ওয়ালপেপার</string>
+    <string name="monet_engine_color_source_lock">লক ওয়ালপেপার</string>
+    <string name="monet_engine_color_source_preset">প্রিসেট</string>
     <!-- Auto pin confirm -->
-    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
+    <string name="lock_screen_auto_pin_confirm_summary_custom">আপনি একটি সঠিক পিন ইনপুট করলে স্বয়ংক্রিয়ভাবে আনলক করুন।  নিশ্চিত করতে এন্টার ট্যাপ করার চেয়ে এটি কিছুটা কম নিরাপদ।</string>
     <!-- Doze settings -->
     <string name="doze_display_title">অ্যামবিয়েন্ট ডিসপ্লে</string>
     <string name="doze_display_summary">অ্যামবিয়েন্ট ডিসপ্লের জন্য সেটিংস ঠিক করুন</string>
@@ -519,6 +522,7 @@
     <string name="navbar_app_switch_long_press_title">Recents long press</string>
     <string name="navbar_app_switch_double_tap_title">Recents double tap</string>
     <string name="navbar_edge_long_swipe_title">Edge long swipe</string>
+    <string name="navbar_corner_long_swipe_title">Bottom corner swipe up</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">পকেট সনাক্তকরণ</string>
     <string name="pocket_judge_summary">ডিভাইস পকেটে থাকা অবস্থায় স্ক্রিন এবং বাটনের ইনপুটগুলি ব্লক করুন</string>
@@ -1136,7 +1140,10 @@
     <!-- IME Space -->
     <string name="navigation_bar_ime_space_title">IME space</string>
     <string name="navigation_bar_ime_space_summary">Add space below keyboard when navigation hint is disabled</string>
-    <!-- QS Bluetooth auto on -->
-    <string name="qs_bt_auto_on_title">Automatic Bluetooth on</string>
-    <string name="qs_bt_auto_on_summary">Always turn on Bluetooth when pressing the Bluetooth QS tile</string>
+    <!-- QS Bluetooth Dialog -->
+    <string name="qs_bt_show_dialog_title">Bluetooth tile dialog</string>
+    <string name="qs_bt_show_dialog_summary">Show bluetooth dialog or toggle bluetooth state on tapping bluetooth tile</string>
+    <!-- Carrier name on lockscreen -->
+    <string name="lockscreen_show_carrier_title">Carrier name</string>
+    <string name="lockscreen_show_carrier_summary">Display carrier name in the status bar</string>
 </resources>

@@ -235,6 +235,8 @@
     <string name="monet_engine_luminance_factor_summary">Valori più alti producono colori più luminosi</string>
     <string name="monet_engine_chroma_factor_title">Fattore cromatico</string>
     <string name="monet_engine_chroma_factor_summary">Valori più alti producono colori più luminosi</string>
+    <string name="monet_engine_whole_palette_title">Tavolozza intera</string>
+    <string name="monet_engine_whole_palette_summary">Utilizza i valori di luminanza e saturazione anche sui colori secondari</string>
     <string name="monet_engine_tint_background_title">Sfondo della tonalità</string>
     <string name="monet_engine_tint_background_summary">Utilizza i valori di luminanza e saturazione anche sui colori di sfondo</string>
     <string name="monet_engine_style_title">Stile tema</string>
@@ -244,6 +246,7 @@
     <string name="monet_engine_style_spritz">Spritz</string>
     <string name="monet_engine_style_rainbow">Arcobaleno</string>
     <string name="monet_engine_style_fruit_salad">Macedonia</string>
+    <string name="monet_engine_style_monochromatic">Monocromatico</string>
     <string name="monet_engine_color_source_title">Sorgente colore</string>
     <string name="monet_engine_color_source_both">Entrambi (predefinito)</string>
     <string name="monet_engine_color_source_home">Sfondo schermata home</string>
@@ -519,6 +522,7 @@
     <string name="navbar_app_switch_long_press_title">Pressione prolungata recenti</string>
     <string name="navbar_app_switch_double_tap_title">Doppi tocchi recenti</string>
     <string name="navbar_edge_long_swipe_title">Scorrimento lungo il bordo</string>
+    <string name="navbar_corner_long_swipe_title">Scorrimento in basso dell\'angolo verso l\'alto</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Rilevamento in tasca</string>
     <string name="pocket_judge_summary">Blocca lo schermo e gli input dei pulsanti quando il dispositivo è nella tasca</string>
@@ -1137,7 +1141,10 @@
     <!-- IME Space -->
     <string name="navigation_bar_ime_space_title">Spazio IME</string>
     <string name="navigation_bar_ime_space_summary">Aggiungi spazio sotto la tastiera quando il suggerimento di navigazione è disabilitato</string>
-    <!-- QS Bluetooth auto on -->
-    <string name="qs_bt_auto_on_title">Attivazione automatica Bluetooth</string>
-    <string name="qs_bt_auto_on_summary">Attiva sempre il Bluetooth quando premi il tile impostazioni rapide Bluetooth</string>
+    <!-- QS Bluetooth Dialog -->
+    <string name="qs_bt_show_dialog_title">Finestra tile Bluetooth</string>
+    <string name="qs_bt_show_dialog_summary">Mostra la finestra di dialogo del bluetooth o attiva/disattiva lo stato del bluetooth quando si tocca il tile del bluetooth</string>
+    <!-- Carrier name on lockscreen -->
+    <string name="lockscreen_show_carrier_title">Nome operatore</string>
+    <string name="lockscreen_show_carrier_summary">Visualizza il nome dell\'operatore nella barra di stato</string>
 </resources>

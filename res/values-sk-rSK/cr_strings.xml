@@ -238,6 +238,8 @@ Ashle-XDA [SLOVAK Preklad]</string>
     <string name="monet_engine_luminance_factor_summary">Vyššie hodnoty predstavujú jasnejšie farby</string>
     <string name="monet_engine_chroma_factor_title">Chroma faktor</string>
     <string name="monet_engine_chroma_factor_summary">Vyššie hodnoty predstavujú výraznejšie farby</string>
+    <string name="monet_engine_whole_palette_title">Whole palette</string>
+    <string name="monet_engine_whole_palette_summary">Make Luminance and Chroma selection affect secondary colors as well</string>
     <string name="monet_engine_tint_background_title">Odtieň pozadia</string>
     <string name="monet_engine_tint_background_summary">Výber svietivosti a chroma faktoru ovplyvní aj farby pozadia</string>
     <string name="monet_engine_style_title">Štýl témy</string>
@@ -247,6 +249,7 @@ Ashle-XDA [SLOVAK Preklad]</string>
     <string name="monet_engine_style_spritz">Spritz</string>
     <string name="monet_engine_style_rainbow">Dúha</string>
     <string name="monet_engine_style_fruit_salad">Ovocný šalát</string>
+    <string name="monet_engine_style_monochromatic">Monochromatic</string>
     <string name="monet_engine_color_source_title">Zdroj farby</string>
     <string name="monet_engine_color_source_both">Obidve (predvolené)</string>
     <string name="monet_engine_color_source_home">Pozadie domovskej obrazovky</string>
@@ -522,6 +525,7 @@ Ashle-XDA [SLOVAK Preklad]</string>
     <string name="navbar_app_switch_long_press_title">Akcia dlhého stlačenia tlačidla \"Nedávne aplikácie\"</string>
     <string name="navbar_app_switch_double_tap_title">Nedávne dvojité klepnutie</string>
     <string name="navbar_edge_long_swipe_title">Akcia dlhým prejdením na okraji</string>
+    <string name="navbar_corner_long_swipe_title">Bottom corner swipe up</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Detekcia uloženia vo vrecku</string>
     <string name="pocket_judge_summary">Blokovať obrazovku a hardvérové tlačidlá, keď je zariadenie vo vrecku</string>
@@ -1050,7 +1054,7 @@ Ashle-XDA [SLOVAK Preklad]</string>
     <string name="app_lock_title">Zámok aplikácií</string>
     <plurals name="app_lock_summary">
         <item quantity="one">Chránená <xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplikácia</item>
-        <item quantity="few">Chránené <xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplikácie</item>
+        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
         <item quantity="many">Chránených <xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplikácií</item>
         <item quantity="other">Chránených <xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplikácií</item>
     </plurals>
@@ -1142,7 +1146,10 @@ Ashle-XDA [SLOVAK Preklad]</string>
     <!-- IME Space -->
     <string name="navigation_bar_ime_space_title">Priestor IME</string>
     <string name="navigation_bar_ime_space_summary">Pridať priestor pod klávesnicu, ak je zakázaná nápoveda navigácie</string>
-    <!-- QS Bluetooth auto on -->
-    <string name="qs_bt_auto_on_title">Automatické zapínanie Bluetooth</string>
-    <string name="qs_bt_auto_on_summary">Vždy po stlačení tlačidla Bluetooth v Rýchlych nastaveniach zapnúť BT</string>
+    <!-- QS Bluetooth Dialog -->
+    <string name="qs_bt_show_dialog_title">Bluetooth tile dialog</string>
+    <string name="qs_bt_show_dialog_summary">Show bluetooth dialog or toggle bluetooth state on tapping bluetooth tile</string>
+    <!-- Carrier name on lockscreen -->
+    <string name="lockscreen_show_carrier_title">Carrier name</string>
+    <string name="lockscreen_show_carrier_summary">Display carrier name in the status bar</string>
 </resources>

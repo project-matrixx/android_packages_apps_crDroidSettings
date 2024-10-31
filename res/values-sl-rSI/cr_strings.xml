@@ -237,6 +237,8 @@
     <string name="monet_engine_luminance_factor_summary">Višje vrednosti ustvarijo svetlejše barve</string>
     <string name="monet_engine_chroma_factor_title">Dejavnik krome</string>
     <string name="monet_engine_chroma_factor_summary">Višje vrednosti dajejo močnejše barve</string>
+    <string name="monet_engine_whole_palette_title">Whole palette</string>
+    <string name="monet_engine_whole_palette_summary">Make Luminance and Chroma selection affect secondary colors as well</string>
     <string name="monet_engine_tint_background_title">Odtenek ozadja</string>
     <string name="monet_engine_tint_background_summary">Izbira svetlosti in kroma vpliva tudi na barve ozadja</string>
     <string name="monet_engine_style_title">Slog teme</string>
@@ -246,6 +248,7 @@
     <string name="monet_engine_style_spritz">Spritz</string>
     <string name="monet_engine_style_rainbow">Mavrično</string>
     <string name="monet_engine_style_fruit_salad">Sadna solata</string>
+    <string name="monet_engine_style_monochromatic">Monochromatic</string>
     <string name="monet_engine_color_source_title">Barvni vir</string>
     <string name="monet_engine_color_source_both">Oba (privzeto)</string>
     <string name="monet_engine_color_source_home">Ozadje domačega zaslona</string>
@@ -521,6 +524,7 @@
     <string name="navbar_app_switch_long_press_title">Pridržanje Nedavno</string>
     <string name="navbar_app_switch_double_tap_title">Ponovni dvojni dotik</string>
     <string name="navbar_edge_long_swipe_title">Dolg poteg iz roba</string>
+    <string name="navbar_corner_long_swipe_title">Bottom corner swipe up</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Zaznavanje žepa</string>
     <string name="pocket_judge_summary">Blokiraj zaslon in vnose gumbov, ko je naprava v žepu</string>
@@ -1049,7 +1053,7 @@
     <string name="app_lock_title">Zaklep aplikacij</string>
     <plurals name="app_lock_summary">
         <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplikacija je zaščitena</item>
-        <item quantity="two"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplikaciji sta zaščiteni</item>
+        <item quantity="two"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
         <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplikacije so zaščitene</item>
         <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplikacij je zaščitenih</item>
     </plurals>
@@ -1141,7 +1145,10 @@
     <!-- IME Space -->
     <string name="navigation_bar_ime_space_title">IME prostor</string>
     <string name="navigation_bar_ime_space_summary">Dodajte presledek pod tipkovnico, ko je navigacijski namig onemogočen</string>
-    <!-- QS Bluetooth auto on -->
-    <string name="qs_bt_auto_on_title">Avtomatski vklop bluetooth</string>
-    <string name="qs_bt_auto_on_summary">Vedno vklopite Bluetooth, ko pritisnete ploščico Bluetooth HN</string>
+    <!-- QS Bluetooth Dialog -->
+    <string name="qs_bt_show_dialog_title">Bluetooth tile dialog</string>
+    <string name="qs_bt_show_dialog_summary">Show bluetooth dialog or toggle bluetooth state on tapping bluetooth tile</string>
+    <!-- Carrier name on lockscreen -->
+    <string name="lockscreen_show_carrier_title">Carrier name</string>
+    <string name="lockscreen_show_carrier_summary">Display carrier name in the status bar</string>
 </resources>
