@@ -280,7 +280,7 @@
             android:icon="@drawable/ic_arrow_up_24"
             android:max="10"
             android:title="@string/statusbar_top_padding"
-            settings:min="-10" />
+            settings:min="0" />
 
         <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
             android:key="statusbar_left_padding"
