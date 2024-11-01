@@ -1146,4 +1146,9 @@
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Operator naam</string>
     <string name="lockscreen_show_carrier_summary">Operator naam in de statusbalk weergeven</string>
+    <!-- Statusbar Padding -->
+    <string name="statusbar_extra_padding_category">Extra padding</string>
+    <string name="statusbar_extra_padding_start_title">Opvulling starten</string>
+    <string name="statusbar_extra_padding_top_title">Top padding</string>
+    <string name="statusbar_extra_padding_end_title">Einde padding</string>
 </resources>

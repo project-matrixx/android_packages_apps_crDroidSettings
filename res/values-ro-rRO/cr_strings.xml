@@ -197,8 +197,8 @@
     <string name="backlight_summary_enabled">Activ</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds">%d</xliff:g> secundă</item>
-        <item quantity="few"><xliff:g id="seconds">%d</xliff:g> seconds</item>
-        <item quantity="other"><xliff:g id="seconds">%d</xliff:g> seconds</item>
+        <item quantity="few"><xliff:g id="secunde">%d</xliff:g> secunde</item>
+        <item quantity="other"><xliff:g id="secunde">%d</xliff:g> secunde</item>
     </plurals>
     <!-- Power menu -->
     <string name="power_menu_title">Meniu de alimentare</string>
@@ -1050,9 +1050,9 @@
     <!-- App lock -->
     <string name="app_lock_title">Blocare aplicații</string>
     <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplicație este protejată</item>
-        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplicații sunt protejate</item>
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplicația este protejată</item>
+        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplicațiile sunt protejate</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplicațiile sunt protejate</item>
     </plurals>
     <string name="app_lock_authentication_dialog_title">Deblocheaza</string>
     <string name="enable_debugging">Activare depanare</string>
@@ -1149,4 +1149,9 @@
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Numele operatorului</string>
     <string name="lockscreen_show_carrier_summary">Afișați numele operatorului în bara de stare</string>
+    <!-- Statusbar Padding -->
+    <string name="statusbar_extra_padding_category">Umplutură extra</string>
+    <string name="statusbar_extra_padding_start_title">Start umplutură</string>
+    <string name="statusbar_extra_padding_top_title">Umplutură sus</string>
+    <string name="statusbar_extra_padding_end_title">Umplutură final</string>
 </resources>

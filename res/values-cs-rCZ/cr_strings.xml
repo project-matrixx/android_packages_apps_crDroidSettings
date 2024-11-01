@@ -1151,4 +1151,9 @@
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Název operátora</string>
     <string name="lockscreen_show_carrier_summary">Zobrazit na stavovém řádku název operátora</string>
+    <!-- Statusbar Padding -->
+    <string name="statusbar_extra_padding_category">Dodatečné odsazení</string>
+    <string name="statusbar_extra_padding_start_title">Začátek odsazení</string>
+    <string name="statusbar_extra_padding_top_title">Horní odsazení</string>
+    <string name="statusbar_extra_padding_end_title">Konec odsazení</string>
 </resources>

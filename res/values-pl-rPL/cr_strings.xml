@@ -63,12 +63,12 @@
     <string name="about_device_name">Urządzenie</string>
     <!-- Share crDroid -->
     <string name="share_crdroid_title">Udostępnij crDroid</string>
-    <string name="share_crdroid_summary">Powiadom innych o crDroid </string>
+    <string name="share_crdroid_summary">Powiadom innych o crDroid</string>
     <string name="share_message">Sprawdź, czy #crDroidAndroid jest dostępny dla twojego urządzenia @ https://crdroid.net/</string>
     <string name="share_chooser_title">Udostępnij crDroid</string>
     <!-- Sites crDroid -->
     <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">Kochamy open source, sprawdź nas</string>
+    <string name="crdroid_source_summary">Kochamy otwarty kod źródłowy, sprawdź nas</string>
     <string name="crdroid_telegram_title">Społeczność crDroid</string>
     <string name="crdroid_telegram_summary">Jesteśmy na Telegramie. Dołącz do nas!</string>
     <string name="crdroid_telegram_channel_title">Kanał aktualizacji</string>
@@ -128,12 +128,12 @@
     <!-- Button settings -->
     <string name="extras_title">Dodatki</string>
     <string name="additional_buttons_title">Dodatkowe przyciski</string>
-    <string name="hardware_keys_power_key_title">Przycisk \"Zasilanie\"</string>
-    <string name="hardware_keys_home_key_title">Przycisk \"Ekran główny\"</string>
-    <string name="hardware_keys_back_key_title">Przycisk \"Wstecz\"</string>
-    <string name="hardware_keys_menu_key_title">Przycisk \"Menu\"</string>
-    <string name="hardware_keys_assist_key_title">Przycisk \"Szukaj\"</string>
-    <string name="hardware_keys_appswitch_key_title">Przycisk \"Ostatnio uruchomione aplikacje\"</string>
+    <string name="hardware_keys_power_key_title">Przycisk \"zasilanie\"</string>
+    <string name="hardware_keys_home_key_title">Przycisk \"ekran główny\"</string>
+    <string name="hardware_keys_back_key_title">Przycisk \"wstecz\"</string>
+    <string name="hardware_keys_menu_key_title">Przycisk \"menu\"</string>
+    <string name="hardware_keys_assist_key_title">Przycisk \"szukaj\"</string>
+    <string name="hardware_keys_appswitch_key_title">Przycisk \"ostatnio uruchomione aplikacje\"</string>
     <string name="hardware_keys_camera_key_title">Przycisk aparatu</string>
     <string name="hardware_keys_volume_keys_title">Przyciski głośności</string>
     <string name="hardware_keys_short_press_title">Akcja dla krótkiego naciśnięcia</string>
@@ -148,8 +148,8 @@
     <string name="hardware_keys_action_launch_camera">Uruchom aparat</string>
     <string name="hardware_keys_action_sleep">Wyłącz ekran</string>
     <string name="hardware_keys_action_last_app">Ostatnia aplikacja</string>
-    <string name="hardware_keys_action_split_screen">Podzielony ekran</string>
-    <string name="hardware_keys_action_close_app">Zamknięcie aplikacji</string>
+    <string name="hardware_keys_action_split_screen">Podziel ekran</string>
+    <string name="hardware_keys_action_close_app">Zamknij aplikację</string>
     <string name="hardware_keys_action_torch">Włącz latarkę</string>
     <string name="hardware_keys_action_screenshot">Zrób zrzut ekranu</string>
     <string name="hardware_keys_action_volume_panel">Pokaż panel głośności</string>
@@ -157,8 +157,8 @@
     <string name="hardware_keys_action_notifications_panel">Pokaż panel powiadomień</string>
     <string name="hardware_keys_action_expand_qs_panel">Rozwiń panel szybkich ustawień</string>
     <string name="hardware_keys_action_ringer_modes">Zmień tryb dzwonka</string>
-    <string name="home_answer_call_title">Odbieranie połączeń</string>
-    <string name="home_answer_call_summary">Odbieraj połączenia przychodzące za pomocą przycisku \"Ekran główny\"</string>
+    <string name="home_answer_call_title">Odbierz połączenie</string>
+    <string name="home_answer_call_summary">Odbieraj połączenia przychodzące przyciskiem \"ekran główny\"</string>
     <string name="camera_sleep_on_release_title">Podgląd ekranu</string>
     <string name="camera_sleep_on_release_summary">Lekkie naciśnięcie aktywuje ekran tylko do czasu zwolnienia przycisku</string>
     <string name="camera_launch_title">Uruchom aparat</string>
@@ -172,25 +172,25 @@
     <string name="volbtn_cursor_control_off">Wyłączono</string>
     <string name="volbtn_cursor_control_on">Podgłaśnianie/ściszanie porusza kursorem w lewo/prawo</string>
     <string name="volbtn_cursor_control_on_reverse">Podgłaśnianie/ściszanie porusza kursorem w prawo/lewo</string>
-    <string name="power_end_call_title">Kończenie połączeń</string>
+    <string name="power_end_call_title">Zakończ połączenie</string>
     <string name="power_end_call_summary">Kończenie bieżącego połączenia naciśnięciem przycisku zasilania</string>
-    <string name="swap_volume_buttons_title">Zamiana orientacji</string>
+    <string name="swap_volume_buttons_title">Zmień orientację</string>
     <string name="swap_volume_buttons_summary">Zamieniaj przyciski głośności po obróceniu ekranu</string>
     <string name="button_wake_title">Wybudź urządzenie</string>
     <string name="button_wake_summary">Wybudź urządzenie poprzez naciśnięcie przycisku</string>
-    <string name="volume_answer_call_title">Odbieranie połączeń</string>
+    <string name="volume_answer_call_title">Odbierz połączenie</string>
     <string name="volume_answer_call_summary">Odbieranie połączenia przychodzącego za pomocą przycisków głośności</string>
     <string name="click_partial_screenshot_title">Częściowy zrzut ekranu</string>
     <string name="click_partial_screenshot_summary">Wciśnij przycisk ściszania oraz zasilania, aby wykonać częściowy zrzut ekranu</string>
     <!-- Key backlight -->
-    <string name="button_backlight_title">Podświetlenie</string>
-    <string name="button_backlight_summary">Dostosuj ustawienia podświetlenia przycisków</string>
+    <string name="button_backlight_title">Podświetlanie</string>
+    <string name="button_backlight_summary">Dostosuj ustawienia podświetlania przycisków</string>
     <string name="button_backlight_enabled">Podświetl przyciski</string>
-    <string name="button_backlight_only_when_pressed_title">Podświetlenie przycisków tylko po naciśnięciu</string>
+    <string name="button_backlight_only_when_pressed_title">Podświetlanie przycisków tylko po naciśnięciu</string>
     <string name="keyboard_backlight_enabled">Podświetl klawiaturę</string>
     <string name="button_backlight_seekbar_title">Jasność podświetlenia przycisków</string>
-    <string name="keyboard_backlight_seekbar_title">Jasność podświetlenia klawiatury</string>
-    <string name="backlight_timeout_title">Czas podświetlenia</string>
+    <string name="keyboard_backlight_seekbar_title">Jasność podświetlania klawiatury</string>
+    <string name="backlight_timeout_title">Czas podświetlania</string>
     <string name="backlight_timeout_unlimited">Nie wyłączaj</string>
     <string name="backlight_summary_disabled">Wyłączono</string>
     <string name="backlight_summary_enabled_with_timeout">Włączono na <xliff:g id="timeout">%s</xliff:g></string>
@@ -289,7 +289,7 @@
     <string name="pulse_on_new_tracks_summary">Pokaż pasek muzyczny na ekranie Ambient podczas zmiany utworu</string>
     <!-- Status bar - icon blocklist -->
     <string name="status_bar_icons_title">Ikony paska stanu</string>
-    <string name="status_bar_icons_summary">Wybierz, które ikony mogą być wyświetlane na pasku stanu</string>
+    <string name="status_bar_icons_summary">Wybierz które ikony mogą być wyświetlane na pasku stanu</string>
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Stan baterii Bluetooth</string>
     <string name="bluetooth_battery_summary">Pokaż stan baterii podłączonego przez bluetooth urządzenia, jeśli to możliwe</string>
@@ -314,7 +314,7 @@
     <string name="smart_pulldown_none_summary">Otwórz szybkie ustawienia, w przypadku braku powiadomień</string>
     <string name="smart_pulldown_off">Wyłącz</string>
     <string name="smart_pulldown_none">brak powiadomień</string>
-    <string name="smart_pulldown_dismissable">brak usuwalnych</string>
+    <string name="smart_pulldown_dismissable">bez możliwości odrzucenia</string>
     <string name="smart_pulldown_ongoing">brak bieżących</string>
     <!-- Tap to sleep on status bar -->
     <string name="lockscreen_doubletap_sleep_title">Dotknij, aby uśpić</string>
@@ -392,7 +392,7 @@
     <string name="status_bar_battery_percent_hidden">Ukryty</string>
     <string name="status_bar_battery_percent_text_inside">Wewnątrz ikony</string>
     <string name="status_bar_battery_percent_text_next_right">Poza ikoną (po prawej)</string>
-    <string name="status_bar_battery_percent_text_next_left">Obok ikony (po lewej)</string>
+    <string name="status_bar_battery_percent_text_next_left">Poza ikoną (po lewej)</string>
     <string name="status_bar_battery_text_charging_title">Poziom baterii w trakcie ładowania</string>
     <string name="status_bar_battery_text_charging_summary">Zawsze wyświetlaj poziom baterii w trakcie ładowania</string>
     <!-- Status bar - Battery Bar -->
@@ -1152,4 +1152,9 @@
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Nazwa operatora</string>
     <string name="lockscreen_show_carrier_summary">Pokazuj nazwę operatora na pasku stanu</string>
+    <!-- Statusbar Padding -->
+    <string name="statusbar_extra_padding_category">Extra padding</string>
+    <string name="statusbar_extra_padding_start_title">Start padding</string>
+    <string name="statusbar_extra_padding_top_title">Top padding</string>
+    <string name="statusbar_extra_padding_end_title">End padding</string>
 </resources>

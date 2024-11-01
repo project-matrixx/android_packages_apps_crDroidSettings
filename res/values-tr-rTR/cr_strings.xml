@@ -1146,4 +1146,9 @@
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Operatör adı</string>
     <string name="lockscreen_show_carrier_summary">Durum çubuğunda operatör adını göster</string>
+    <!-- Statusbar Padding -->
+    <string name="statusbar_extra_padding_category">Ek dolgu</string>
+    <string name="statusbar_extra_padding_start_title">Dolguyu başlat</string>
+    <string name="statusbar_extra_padding_top_title">Üst dolgu</string>
+    <string name="statusbar_extra_padding_end_title">Dolguyu bitir</string>
 </resources>
