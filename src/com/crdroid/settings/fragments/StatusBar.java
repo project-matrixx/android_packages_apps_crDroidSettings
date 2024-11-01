@@ -42,11 +42,8 @@ import com.android.settingslib.search.SearchIndexable;
 import com.crdroid.settings.fragments.statusbar.BatteryBar;
 import com.crdroid.settings.fragments.statusbar.Clock;
 import com.crdroid.settings.fragments.statusbar.NetworkTrafficSettings;
-import com.crdroid.settings.preferences.CustomSeekBarPreference;
-import com.crdroid.settings.preferences.SystemSettingListPreference;
 import com.crdroid.settings.preferences.SystemSettingSeekBarPreference;
 import com.crdroid.settings.utils.DeviceUtils;
-import com.crdroid.settings.utils.ResourceUtils;
 
 import lineageos.preference.LineageSystemSettingListPreference;
 import lineageos.providers.LineageSettings;
@@ -66,9 +63,6 @@ public class StatusBar extends SettingsPreferenceFragment implements
     private static final String KEY_STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String KEY_STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
     private static final String KEY_STATUS_BAR_BATTERY_TEXT_CHARGING = "status_bar_battery_text_charging";
-    private static final String KEY_STATUSBAR_TOP_PADDING = "statusbar_top_padding";
-    private static final String KEY_STATUSBAR_LEFT_PADDING = "statusbar_left_padding";
-    private static final String KEY_STATUSBAR_RIGHT_PADDING = "statusbar_right_padding";
     private static final String DEFAULT = "_default";
     private static final String VOLTE_ICON_STYLE = "volte_icon_style";
     private static final String VOWIFI_ICON_STYLE = "vowifi_icon_style";
@@ -165,24 +159,6 @@ public class StatusBar extends SettingsPreferenceFragment implements
 
         mChargingSymbol = (SystemSettingListPreference) findPreference("text_charging_symbol");
         mChargingSymbol.setEnabled(batterystyle == BATTERY_STYLE_TEXT);
-
-        final int defaultLeftPadding = Settings.System.getIntForUser(getContentResolver(),
-                    KEY_STATUSBAR_LEFT_PADDING + DEFAULT, 0, UserHandle.USER_CURRENT);
-        CustomSeekBarPreference seekBar = findPreference(KEY_STATUSBAR_LEFT_PADDING);
-        seekBar.setDefaultValue(defaultLeftPadding, true);
-
-        final int defaultRightPadding = Settings.System.getIntForUser(getContentResolver(),
-                    KEY_STATUSBAR_RIGHT_PADDING + DEFAULT, 0, UserHandle.USER_CURRENT);
-        seekBar = findPreference(KEY_STATUSBAR_RIGHT_PADDING);
-        seekBar.setDefaultValue(defaultRightPadding, true);
-
-        final int defaultTopPadding = Settings.System.getIntForUser(getContentResolver(),
-                    KEY_STATUSBAR_TOP_PADDING + DEFAULT, 0, UserHandle.USER_CURRENT);
-        seekBar = findPreference(KEY_STATUSBAR_TOP_PADDING);
-        seekBar.setDefaultValue(defaultTopPadding, true);
-
-        mChargingSymbol = (SystemSettingListPreference) findPreference("text_charging_symbol");
-        mChargingSymbol.setEnabled(batterystyle == BATTERY_STYLE_TEXT);
     }
 
     @Override
@@ -229,7 +205,6 @@ public class StatusBar extends SettingsPreferenceFragment implements
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
-        final Resources res = mContext.getResources();
 
         LineageSettings.System.putIntForUser(resolver,
                 LineageSettings.System.DOUBLE_TAP_SLEEP_GESTURE, 1, UserHandle.USER_CURRENT);
