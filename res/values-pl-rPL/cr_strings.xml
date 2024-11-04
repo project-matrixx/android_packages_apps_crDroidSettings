@@ -1153,8 +1153,8 @@
     <string name="lockscreen_show_carrier_title">Nazwa operatora</string>
     <string name="lockscreen_show_carrier_summary">Pokazuj nazwę operatora na pasku stanu</string>
     <!-- Statusbar Padding -->
-    <string name="statusbar_extra_padding_category">Extra padding</string>
-    <string name="statusbar_extra_padding_start_title">Start padding</string>
-    <string name="statusbar_extra_padding_top_title">Top padding</string>
-    <string name="statusbar_extra_padding_end_title">End padding</string>
+    <string name="statusbar_extra_padding_category">Dodatkowe wypełnienie</string>
+    <string name="statusbar_extra_padding_start_title">Początkowe wypełnienie</string>
+    <string name="statusbar_extra_padding_top_title">Wypełnienie górne</string>
+    <string name="statusbar_extra_padding_end_title">Końcowe wypełnienie</string>
 </resources>

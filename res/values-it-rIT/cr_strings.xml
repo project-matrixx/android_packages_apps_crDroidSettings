@@ -1148,8 +1148,8 @@
     <string name="lockscreen_show_carrier_title">Nome operatore</string>
     <string name="lockscreen_show_carrier_summary">Visualizza il nome dell\'operatore nella barra di stato</string>
     <!-- Statusbar Padding -->
-    <string name="statusbar_extra_padding_category">Extra padding</string>
-    <string name="statusbar_extra_padding_start_title">Start padding</string>
-    <string name="statusbar_extra_padding_top_title">Top padding</string>
-    <string name="statusbar_extra_padding_end_title">End padding</string>
+    <string name="statusbar_extra_padding_category">Riempimento extra</string>
+    <string name="statusbar_extra_padding_start_title">Inizio riempimento</string>
+    <string name="statusbar_extra_padding_top_title">Riempimento superiore</string>
+    <string name="statusbar_extra_padding_end_title">Fine riempimento</string>
 </resources>

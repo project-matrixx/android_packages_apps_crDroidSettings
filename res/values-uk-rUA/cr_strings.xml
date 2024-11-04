@@ -1053,8 +1053,8 @@
     <string name="app_lock_title">Блокування програм</string>
     <plurals name="app_lock_summary">
         <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> Додаток захищено</item>
-        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
-        <item quantity="many"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> додатків захищено</item>
+        <item quantity="many"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> додатків захищено</item>
         <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> Програма захищена</item>
     </plurals>
     <string name="app_lock_authentication_dialog_title">Розблокувати</string>

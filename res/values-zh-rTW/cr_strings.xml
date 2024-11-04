@@ -1144,8 +1144,8 @@
     <string name="lockscreen_show_carrier_title">電信商名稱</string>
     <string name="lockscreen_show_carrier_summary">在狀態列中顯示電信商名稱</string>
     <!-- Statusbar Padding -->
-    <string name="statusbar_extra_padding_category">Extra padding</string>
-    <string name="statusbar_extra_padding_start_title">Start padding</string>
-    <string name="statusbar_extra_padding_top_title">Top padding</string>
-    <string name="statusbar_extra_padding_end_title">End padding</string>
+    <string name="statusbar_extra_padding_category">額外邊距</string>
+    <string name="statusbar_extra_padding_start_title">前端邊距</string>
+    <string name="statusbar_extra_padding_top_title">頂部邊距</string>
+    <string name="statusbar_extra_padding_end_title">末端邊距</string>
 </resources>
