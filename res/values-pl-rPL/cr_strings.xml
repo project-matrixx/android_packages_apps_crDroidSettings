@@ -1157,4 +1157,8 @@
     <string name="statusbar_extra_padding_start_title">Początkowe wypełnienie</string>
     <string name="statusbar_extra_padding_top_title">Wypełnienie górne</string>
     <string name="statusbar_extra_padding_end_title">Końcowe wypełnienie</string>
+    <!-- Wi-Fi MAC address randomization -->
+    <string name="wifi_per_connection_random_mac_addr">Używaj losowego adresu MAC dla każdego połączenia (domyślnie)</string>
+    <string name="wifi_per_network_random_mac_addr">Używaj losowego adresu MAC dla sieci</string>
+    <string name="wifi_device_mac_addr">Używaj adresu MAC urządzenia</string>
 </resources>

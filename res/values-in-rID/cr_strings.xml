@@ -245,7 +245,7 @@
     <string name="monet_engine_style_spritz">Spritz</string>
     <string name="monet_engine_style_rainbow">Pelangi</string>
     <string name="monet_engine_style_fruit_salad">Salad buah</string>
-    <string name="monet_engine_style_monochromatic">Monochromatic</string>
+    <string name="monet_engine_style_monochromatic">Monokromatik</string>
     <string name="monet_engine_color_source_title">Sumber warna</string>
     <string name="monet_engine_color_source_both">Keduanya (Bawaan)</string>
     <string name="monet_engine_color_source_home">Latar belakang rumah</string>
@@ -1147,4 +1147,8 @@
     <string name="statusbar_extra_padding_start_title">Start padding</string>
     <string name="statusbar_extra_padding_top_title">Top padding</string>
     <string name="statusbar_extra_padding_end_title">End padding</string>
+    <!-- Wi-Fi MAC address randomization -->
+    <string name="wifi_per_connection_random_mac_addr">Gunakan MAC acak per koneksi (default)</string>
+    <string name="wifi_per_network_random_mac_addr">Gunakan MAC acak per jaringan</string>
+    <string name="wifi_device_mac_addr">Gunakan MAC perangkat</string>
 </resources>

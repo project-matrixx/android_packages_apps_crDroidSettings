@@ -1152,4 +1152,8 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <string name="statusbar_extra_padding_start_title">Abstand zum Anfang</string>
     <string name="statusbar_extra_padding_top_title">Abstand nach oben</string>
     <string name="statusbar_extra_padding_end_title">Abstand zum Ende</string>
+    <!-- Wi-Fi MAC address randomization -->
+    <string name="wifi_per_connection_random_mac_addr">Verbindungsspezifische MAC-Randomisierung verwenden (Standard)</string>
+    <string name="wifi_per_network_random_mac_addr">Netzwerkspezifische MAC-Randomisierung verwenden</string>
+    <string name="wifi_device_mac_addr">Geräte-MAC verwenden</string>
 </resources>

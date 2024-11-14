@@ -1153,4 +1153,8 @@
     <string name="statusbar_extra_padding_start_title">Kezdeti kitöltés</string>
     <string name="statusbar_extra_padding_top_title">Legerősebb kitöltés</string>
     <string name="statusbar_extra_padding_end_title">Végző kitöltés</string>
+    <!-- Wi-Fi MAC address randomization -->
+    <string name="wifi_per_connection_random_mac_addr">Kapcsolatonként véletlenszerű MAC használata (alapértelmezett)</string>
+    <string name="wifi_per_network_random_mac_addr">Hálózatonként véletlenszerű MAC használata</string>
+    <string name="wifi_device_mac_addr">A készüléken található MAC használata</string>
 </resources>
