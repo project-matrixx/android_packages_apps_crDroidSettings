@@ -745,6 +745,7 @@
     <string name="bluetooth_timeout">Час вимкнення Bluetooth</string>
     <string name="bluetooth_timeout_summary">Не вимикати Bluetooth автоматично</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth буде вимкнено після <xliff:g id="timeout_description">%1$s</xliff:g> якщо пристрої не під\'єднані</string>
+    <!-- Timeouts -->
     <string name="custom_timeout_summary_never">Ніколи</string>
     <string name="custom_timeout_summary_5secs">5 секунд</string>
     <string name="custom_timeout_summary_10secs">10 секунд</string>
@@ -760,6 +761,11 @@
     <string name="custom_timeout_summary_2hours">2 години</string>
     <string name="custom_timeout_summary_4hours">4 години</string>
     <string name="custom_timeout_summary_8hours">8 годин</string>
+    <string name="custom_timeout_summary_12hours">12 годин</string>
+    <string name="custom_timeout_summary_24hours">24 годин</string>
+    <string name="custom_timeout_summary_36hours">36 годин</string>
+    <string name="custom_timeout_summary_48hours">48 годин</string>
+    <string name="custom_timeout_summary_72hours">72 годин</string>
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_ap_band_title">Діапазон частот точки доступу</string>
     <string name="wifi_hotspot_hidden_ssid_title">Прихована мережа</string>
@@ -1158,7 +1164,16 @@
     <string name="statusbar_extra_padding_top_title">Верхній відступ</string>
     <string name="statusbar_extra_padding_end_title">Кінцевий відступ</string>
     <!-- Wi-Fi MAC address randomization -->
-    <string name="wifi_per_connection_random_mac_addr">Use per-connection randomized MAC (default)</string>
-    <string name="wifi_per_network_random_mac_addr">Use per-network randomized MAC</string>
-    <string name="wifi_device_mac_addr">Use device MAC</string>
+    <string name="wifi_per_connection_random_mac_addr">Використовувати випадкове MC (за замовчуванням)</string>
+    <string name="wifi_per_network_random_mac_addr">Використовувати випадковий формат MAC для мережі</string>
+    <string name="wifi_device_mac_addr">Використовувати MAC-адресу пристрою</string>
+    <!-- Ambient wake -->
+    <string name="doze_gesture_ambient_title">Показати Активний екран</string>
+    <string name="doze_gesture_ambient_summary">Показати Активний екран замість повного пробудження екрану</string>
+    <string name="gesture_wake_ambient">Показати Активний екран</string>
+    <string name="gesture_wake">Повністю пробудження</string>
+    <!-- Clipboard auto clear -->
+    <string name="clipboard_auto_clear_timeout_title">Очистити буфер обміну</string>
+    <string name="clipboard_auto_clear_timeout_summary">Буфер обміну буде автоматично очищено після <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="clipboard_auto_clear_timeout_summary2">Буфер обміну не очищиться автоматично</string>
 </resources>

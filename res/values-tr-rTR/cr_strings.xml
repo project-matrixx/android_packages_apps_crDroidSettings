@@ -743,6 +743,7 @@
     <string name="bluetooth_timeout">Bluetooth zaman aşımı</string>
     <string name="bluetooth_timeout_summary">Bluetooth\'u otomatik olarak kapatma</string>
     <string name="bluetooth_timeout_summary_auto">Hiçbir cihaz bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Bluetooth kapanacak</string>
+    <!-- Timeouts -->
     <string name="custom_timeout_summary_never">Asla</string>
     <string name="custom_timeout_summary_5secs">5 saniye</string>
     <string name="custom_timeout_summary_10secs">10 saniye</string>
@@ -758,6 +759,11 @@
     <string name="custom_timeout_summary_2hours">2 saat</string>
     <string name="custom_timeout_summary_4hours">4 saat</string>
     <string name="custom_timeout_summary_8hours">8 saat</string>
+    <string name="custom_timeout_summary_12hours">12 saat</string>
+    <string name="custom_timeout_summary_24hours">24 saat</string>
+    <string name="custom_timeout_summary_36hours">36 saat</string>
+    <string name="custom_timeout_summary_48hours">48 saat</string>
+    <string name="custom_timeout_summary_72hours">72 saat</string>
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_ap_band_title">Erişim Noktası Bant Adı</string>
     <string name="wifi_hotspot_hidden_ssid_title">Gizli ağ</string>
@@ -1155,4 +1161,13 @@
     <string name="wifi_per_connection_random_mac_addr">Her bağlantı için rastgele MAC kullan (varsayılan)</string>
     <string name="wifi_per_network_random_mac_addr">Her ağ için rastgele MAC kullan</string>
     <string name="wifi_device_mac_addr">Cihazın MAC\'ını kullan</string>
+    <!-- Ambient wake -->
+    <string name="doze_gesture_ambient_title">Ortam ekranını göster</string>
+    <string name="doze_gesture_ambient_summary">Ekranı tamamen uyandırmak yerine ortam ekranını göster</string>
+    <string name="gesture_wake_ambient">Ortam ekranını göster</string>
+    <string name="gesture_wake">Tamamen uyan</string>
+    <!-- Clipboard auto clear -->
+    <string name="clipboard_auto_clear_timeout_title">Panonun otomatik temizlenmesi</string>
+    <string name="clipboard_auto_clear_timeout_summary">Pano <xliff:g id="timeout_description">%1$s</xliff:g> sonra otomatikman temizlenecek</string>
+    <string name="clipboard_auto_clear_timeout_summary2">Pano otomatikman temizlenmeyecek</string>
 </resources>

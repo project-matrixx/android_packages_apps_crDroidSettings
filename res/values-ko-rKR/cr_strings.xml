@@ -742,6 +742,7 @@
     <string name="bluetooth_timeout">블루투스 시간 제한</string>
     <string name="bluetooth_timeout_summary">블루투스를 자동으로 끄지 않음</string>
     <string name="bluetooth_timeout_summary_auto">연결된 기기가 없으면 <xliff:g id="timeout_description">%1$s</xliff:g> 뒤에 블루투스를 자동으로 끕니다.</string>
+    <!-- Timeouts -->
     <string name="custom_timeout_summary_never">없음</string>
     <string name="custom_timeout_summary_5secs">5초</string>
     <string name="custom_timeout_summary_10secs">10초</string>
@@ -757,6 +758,11 @@
     <string name="custom_timeout_summary_2hours">2시간</string>
     <string name="custom_timeout_summary_4hours">4시간</string>
     <string name="custom_timeout_summary_8hours">8시간</string>
+    <string name="custom_timeout_summary_12hours">12시간</string>
+    <string name="custom_timeout_summary_24hours">24시간</string>
+    <string name="custom_timeout_summary_36hours">36시간</string>
+    <string name="custom_timeout_summary_48hours">48시간</string>
+    <string name="custom_timeout_summary_72hours">72시간</string>
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_ap_band_title">AP 밴드</string>
     <string name="wifi_hotspot_hidden_ssid_title">네트워크 숨기기</string>
@@ -1152,4 +1158,13 @@
     <string name="wifi_per_connection_random_mac_addr">각 연결별 무작위 MAC 사용(기본값)</string>
     <string name="wifi_per_network_random_mac_addr">각 네트워크별 무작위 MAC 사용</string>
     <string name="wifi_device_mac_addr">기기 MAC 사용</string>
+    <!-- Ambient wake -->
+    <string name="doze_gesture_ambient_title">절전 모드 자동 해제 표시</string>
+    <string name="doze_gesture_ambient_summary">화면을 완전히 켜지 않고 절전 모드 자동 해제 화면 표시</string>
+    <string name="gesture_wake_ambient">절전 모드 자동 해제 표시</string>
+    <string name="gesture_wake">화면 켜기</string>
+    <!-- Clipboard auto clear -->
+    <string name="clipboard_auto_clear_timeout_title">클립보드 자동 비우기</string>
+    <string name="clipboard_auto_clear_timeout_summary"><xliff:g id="timeout_description">%1$s</xliff:g> 뒤에 클립보드를 자동으로 비웁니다.</string>
+    <string name="clipboard_auto_clear_timeout_summary2">클립보드를 자동으로 비우지 않습니다.</string>
 </resources>

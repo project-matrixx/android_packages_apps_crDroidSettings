@@ -743,6 +743,7 @@
     <string name="bluetooth_timeout">Bluetooth-Timeout</string>
     <string name="bluetooth_timeout_summary">Bluetooth nie automatisch ausschalten</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth wird nach <xliff:g id="timeout_description">%1$s</xliff:g> ausgeschaltet, sofern kein Gerät verbunden ist</string>
+    <!-- Timeouts -->
     <string name="custom_timeout_summary_never">Nie</string>
     <string name="custom_timeout_summary_5secs">5 Sekunden</string>
     <string name="custom_timeout_summary_10secs">10 Sekunden</string>
@@ -758,6 +759,11 @@
     <string name="custom_timeout_summary_2hours">2 Stunden</string>
     <string name="custom_timeout_summary_4hours">4 Stunde</string>
     <string name="custom_timeout_summary_8hours">8 Stunden</string>
+    <string name="custom_timeout_summary_12hours">12 Stunden</string>
+    <string name="custom_timeout_summary_24hours">24 Stunden</string>
+    <string name="custom_timeout_summary_36hours">36 Stunden</string>
+    <string name="custom_timeout_summary_48hours">48 Stunden</string>
+    <string name="custom_timeout_summary_72hours">72 Stunden</string>
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_ap_band_title">Frequenzband des Hotspots</string>
     <string name="wifi_hotspot_hidden_ssid_title">Verstecktes Netzwerk</string>
@@ -1156,4 +1162,13 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <string name="wifi_per_connection_random_mac_addr">Verbindungsspezifische MAC-Randomisierung verwenden (Standard)</string>
     <string name="wifi_per_network_random_mac_addr">Netzwerkspezifische MAC-Randomisierung verwenden</string>
     <string name="wifi_device_mac_addr">Geräte-MAC verwenden</string>
+    <!-- Ambient wake -->
+    <string name="doze_gesture_ambient_title">Inaktivitätsdisplay anzeigen</string>
+    <string name="doze_gesture_ambient_summary">Inaktivitätsdisplay anzeigen, anstatt den Bildschirm vollständig einzuschalten</string>
+    <string name="gesture_wake_ambient">Inaktivitätsdisplay anzeigen</string>
+    <string name="gesture_wake">Vollständig einschalten</string>
+    <!-- Clipboard auto clear -->
+    <string name="clipboard_auto_clear_timeout_title">Zwischenablage automatisch leeren</string>
+    <string name="clipboard_auto_clear_timeout_summary">Zwischenablage wird nach <xliff:g id="timeout_description">%1$s</xliff:g> automatisch geleert</string>
+    <string name="clipboard_auto_clear_timeout_summary2">Zwischenablage wird nicht automatisch geleert</string>
 </resources>

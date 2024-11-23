@@ -745,6 +745,7 @@
     <string name="bluetooth_timeout">Автовыключение Bluetooth</string>
     <string name="bluetooth_timeout_summary">Не выключать Bluetooth автоматически</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth выключится через <xliff:g id="timeout_description">%1$s</xliff:g> если не подключен к устройству</string>
+    <!-- Timeouts -->
     <string name="custom_timeout_summary_never">Никогда</string>
     <string name="custom_timeout_summary_5secs">5 секунд</string>
     <string name="custom_timeout_summary_10secs">10 секунд</string>
@@ -760,6 +761,11 @@
     <string name="custom_timeout_summary_2hours">2 часа</string>
     <string name="custom_timeout_summary_4hours">4 часа</string>
     <string name="custom_timeout_summary_8hours">8 часов</string>
+    <string name="custom_timeout_summary_12hours">12 часов</string>
+    <string name="custom_timeout_summary_24hours">24 часа</string>
+    <string name="custom_timeout_summary_36hours">36 часов</string>
+    <string name="custom_timeout_summary_48hours">48 часов</string>
+    <string name="custom_timeout_summary_72hours">72 часа</string>
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_ap_band_title">Диапазон частот Wi-Fi</string>
     <string name="wifi_hotspot_hidden_ssid_title">Скрытая сеть</string>
@@ -1161,4 +1167,13 @@
     <string name="wifi_per_connection_random_mac_addr">Случайный MAC для каждого подключения (По умолчанию)</string>
     <string name="wifi_per_network_random_mac_addr">Случайный MAC для каждой сети</string>
     <string name="wifi_device_mac_addr">MAC-адрес устройства</string>
+    <!-- Ambient wake -->
+    <string name="doze_gesture_ambient_title">Активный экран</string>
+    <string name="doze_gesture_ambient_summary">Показывать активный экран вместо полного пробуждения</string>
+    <string name="gesture_wake_ambient">Показать активный экран</string>
+    <string name="gesture_wake">Полное пробуждение</string>
+    <!-- Clipboard auto clear -->
+    <string name="clipboard_auto_clear_timeout_title">Автоочистка буфера обмена</string>
+    <string name="clipboard_auto_clear_timeout_summary">Буфер обмена будет автоматически очищен через <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="clipboard_auto_clear_timeout_summary2">Буфер обмена автоматически очищаться не будет</string>
 </resources>
