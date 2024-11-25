@@ -159,7 +159,6 @@
     <!-- Sidebar -->
     <Preference
         android:key="sidebar"
-        android:icon="@drawable/ic_floating"
         android:title="@string/sidebar_title"
         android:summary="@string/sidebar_summary">
 
