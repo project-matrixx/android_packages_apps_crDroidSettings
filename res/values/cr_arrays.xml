@@ -929,7 +929,7 @@
 
     <!-- Clipboard auto clear settings. The delay before the clipboard is cleared. These are shown in a list dialog. -->
     <string-array name="clipboard_auto_clear_timeout_entries">
-        <item>@string/custom_timeout_summary_never</item>
+        <item>@string/clipboard_auto_clear_timeout_disable_clipboard</item>
         <item>@string/custom_timeout_summary_15secs</item>
         <item>@string/custom_timeout_summary_30secs</item>
         <item>@string/custom_timeout_summary_1min</item>
@@ -937,7 +937,7 @@
         <item>@string/custom_timeout_summary_5mins</item>
         <item>@string/custom_timeout_summary_10mins</item>
         <item>@string/custom_timeout_summary_30mins</item>
-        <item>@string/custom_timeout_summary_1hour</item>
+        <item>@string/custom_timeout_summary_1hour_def</item>
         <item>@string/custom_timeout_summary_2hours</item>
         <item>@string/custom_timeout_summary_4hours</item>
         <item>@string/custom_timeout_summary_8hours</item>
