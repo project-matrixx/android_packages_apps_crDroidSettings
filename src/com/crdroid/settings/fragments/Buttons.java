@@ -77,6 +77,7 @@ public class Buttons extends SettingsPreferenceFragment implements
     private static final String KEY_ASSIST_WAKE_SCREEN = "assist_wake_screen";
     private static final String KEY_APP_SWITCH_PRESS = "hardware_keys_app_switch_press";
     private static final String KEY_APP_SWITCH_LONG_PRESS = "hardware_keys_app_switch_long_press";
+    private static final String KEY_APP_SWITCH_DOUBLE_TAP = "hardware_keys_app_switch_double_tap";
     private static final String KEY_APP_SWITCH_WAKE_SCREEN = "app_switch_wake_screen";
     private static final String KEY_VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
     private static final String KEY_SWAP_VOLUME_BUTTONS = "swap_volume_buttons";
@@ -117,6 +118,7 @@ public class Buttons extends SettingsPreferenceFragment implements
     private ListPreference mAssistLongPressAction;
     private ListPreference mAppSwitchPressAction;
     private ListPreference mAppSwitchLongPressAction;
+    private ListPreference mAppSwitchDoubleTapAction;
     private SwitchPreferenceCompat mCameraWakeScreen;
     private SwitchPreferenceCompat mCameraSleepOnRelease;
     private ListPreference mVolumeKeyCursorControl;
@@ -199,6 +201,9 @@ public class Buttons extends SettingsPreferenceFragment implements
         Action appSwitchLongPressAction = Action.fromSettings(resolver,
                 LineageSettings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION,
                 defaultAppSwitchLongPressAction);
+        Action appSwitchDoubleTapAction = Action.fromSettings(resolver,
+                LineageSettings.System.KEY_APP_SWITCH_DOUBLE_TAP_ACTION,
+                Action.LAST_APP);
         Action assistLongPressAction = Action.fromSettings(resolver,
                 LineageSettings.System.KEY_ASSIST_LONG_PRESS_ACTION,
                 defaultAssistLongPressAction);
@@ -310,6 +315,7 @@ public class Buttons extends SettingsPreferenceFragment implements
             mAppSwitchPressAction = initList(KEY_APP_SWITCH_PRESS, pressAction);
 
             mAppSwitchLongPressAction = initList(KEY_APP_SWITCH_LONG_PRESS, appSwitchLongPressAction);
+            mAppSwitchDoubleTapAction = initList(KEY_APP_SWITCH_DOUBLE_TAP, appSwitchDoubleTapAction);
         }
         if (!hasAppSwitchKey || appSwitchCategory.getPreferenceCount() == 0) {
             prefScreen.removePreference(appSwitchCategory);
@@ -490,6 +496,10 @@ public class Buttons extends SettingsPreferenceFragment implements
             handleListChange((ListPreference) preference, newValue,
                     LineageSettings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION);
             return true;
+        } else if (preference == mAppSwitchDoubleTapAction) {
+            handleListChange((ListPreference) preference, newValue,
+                    LineageSettings.System.KEY_APP_SWITCH_DOUBLE_TAP_ACTION);
+            return true;
         } else if (preference == mVolumeKeyCursorControl) {
             handleSystemListChange((ListPreference) preference, newValue,
                     Settings.System.VOLUME_KEY_CURSOR_CONTROL);
@@ -638,6 +648,7 @@ public class Buttons extends SettingsPreferenceFragment implements
                     keys.add(KEY_APP_SWITCH_WAKE_SCREEN);
                     keys.add(KEY_APP_SWITCH_PRESS);
                     keys.add(KEY_APP_SWITCH_LONG_PRESS);
+                    keys.add(KEY_APP_SWITCH_DOUBLE_TAP);
                     keys.add(KEY_CAMERA_WAKE_SCREEN);
 
                     if (!DeviceUtils.hasCameraKey(context)) {
