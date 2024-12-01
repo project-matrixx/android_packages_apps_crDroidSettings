@@ -39,6 +39,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.ArrayUtils;
@@ -74,6 +75,7 @@ public class LockScreen extends SettingsPreferenceFragment
     private static final String LOCKSCREEN_INTERFACE_CATEGORY = "lockscreen_interface_category";
     private static final String LOCKSCREEN_GESTURES_CATEGORY = "lockscreen_gestures_category";
     private static final String KEY_RIPPLE_EFFECT = "enable_ripple_effect";
+    private static final String KEY_SMARTSPACE = "lockscreen_smartspace_enabled";
     private static final String KEY_WEATHER = "lockscreen_weather_enabled";
     private static final String KEY_UDFPS_ANIMATIONS = "udfps_recognizing_animation_preview";
     private static final String KEY_UDFPS_ICONS = "udfps_icon_picker";
@@ -95,6 +97,8 @@ public class LockScreen extends SettingsPreferenceFragment
     private Preference mCustomFPImage;
     private SystemSettingSwitchPreference mCustomFodIcon;
     private CustomSeekBarPreference mMaxKeyguardNotifConfig;
+
+    private SwitchPreferenceCompat mSmartspace;
 
     private OmniJawsClient mWeatherClient;
 
@@ -176,6 +180,9 @@ public class LockScreen extends SettingsPreferenceFragment
         String batteryBarColorHex = String.format("#%08x", (0xFF39FF42 & batteryBarColor));
         mBarCustomColor.setNewPreviewColor(batteryBarColor);
 
+        mSmartspace = (SwitchPreferenceCompat) findPreference(KEY_SMARTSPACE);
+        mSmartspace.setOnPreferenceChangeListener(this);
+
         mWeather = (Preference) findPreference(KEY_WEATHER);
         mWeatherClient = new OmniJawsClient(getContext());
         updateWeatherSettings();
@@ -236,7 +243,12 @@ public class LockScreen extends SettingsPreferenceFragment
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.LOCKSCREEN_MAX_NOTIF_CONFIG, kgconf);
             return true;
+        } else if (preference == mSmartspace) {
+            mSmartspace.setChecked((Boolean)newValue);
+            updateWeatherSettings();
+            return true;
         }
+
         return false;
     }
 
@@ -273,6 +285,8 @@ public class LockScreen extends SettingsPreferenceFragment
         ContentResolver resolver = mContext.getContentResolver();
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.SCREEN_OFF_UDFPS_ENABLED, 0, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                Settings.Secure.LOCKSCREEN_SMARTSPACE_ENABLED, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LOCKSCREEN_BATTERY_INFO, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
@@ -302,11 +316,11 @@ public class LockScreen extends SettingsPreferenceFragment
     }
 
     private void updateWeatherSettings() {
-        if (mWeatherClient == null || mWeather == null) return;
+        if (mWeatherClient == null || mWeather == null || mSmartspace == null) return;
 
         boolean weatherEnabled = mWeatherClient.isOmniJawsEnabled();
-        mWeather.setEnabled(weatherEnabled);
-        mWeather.setSummary(weatherEnabled ? R.string.lockscreen_weather_summary :
+        mWeather.setEnabled(!mSmartspace.isChecked() && weatherEnabled);
+        mWeather.setSummary(!mSmartspace.isChecked() && weatherEnabled ? R.string.lockscreen_weather_summary :
             R.string.lockscreen_weather_enabled_info);
     }
 
