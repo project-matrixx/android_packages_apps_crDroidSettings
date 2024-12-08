@@ -743,7 +743,7 @@
     <string name="bluetooth_timeout">Temps d\'espera del Bluetooth</string>
     <string name="bluetooth_timeout_summary">No apaguis automàticament el Bluetooth</string>
     <string name="bluetooth_timeout_summary_auto">El Bluetooth s\'apagarà en <xliff:g id="timeout_description">%1$s</xliff:g> si no hi ha cap dispositiu connectat</string>
-    <!-- Timeouts -->
+    <!-- Custom Timeouts -->
     <string name="custom_timeout_summary_never">Mai</string>
     <string name="custom_timeout_summary_5secs">5 segons</string>
     <string name="custom_timeout_summary_10secs">10 segons</string>
@@ -764,6 +764,8 @@
     <string name="custom_timeout_summary_36hours">36 hours</string>
     <string name="custom_timeout_summary_48hours">48 hours</string>
     <string name="custom_timeout_summary_72hours">72 hours</string>
+    <!-- Default Timeouts -->
+    <string name="custom_timeout_summary_1hour_def">1 hour (Default)</string>
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_ap_band_title">AP Band</string>
     <string name="wifi_hotspot_hidden_ssid_title">Xarxa oculta</string>
@@ -940,7 +942,7 @@
     <string name="lockscreen_weather_category">Oratge</string>
     <string name="lockscreen_weather_title">Weather update</string>
     <string name="lockscreen_weather_summary">Display current weather update</string>
-    <string name="lockscreen_weather_enabled_info">És necessari que el servei meteorològic estigui activat</string>
+    <string name="lockscreen_weather_enabled_info">Requires custom weather service configured and smartspace disabled</string>
     <string name="lockscreen_weather_location_title">Current location</string>
     <string name="lockscreen_weather_location_summary">Mostra la ubicació del temps meteorològic actual</string>
     <string name="lockscreen_weather_text_title">Current condition</string>
@@ -1166,8 +1168,16 @@
     <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
     <string name="gesture_wake_ambient">Show Ambient</string>
     <string name="gesture_wake">Fully wake</string>
+    <!-- Sidebar -->
+    <string name="sidebar_title">Sidebar</string>
+    <string name="sidebar_summary">Quickly open apps in a floating window</string>
+    <!-- Smartspace -->
+    <string name="lockscreen_smartspace_title">Smartspace</string>
+    <string name="lockscreen_smartspace_summary">Show Google Smartspace when available</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">Clipboard auto clear</string>
-    <string name="clipboard_auto_clear_timeout_summary">Clipboard will be automatically cleared after <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="clipboard_auto_clear_timeout_summary2">Clipboard will not automatically clear</string>
+    <string name="clipboard_auto_clear_timeout_title">Clipboard auto clear timeout</string>
+    <string name="clipboard_auto_clear_title">Clipboard auto clear</string>
+    <string name="clipboard_auto_clear_summary">Automatically clear clipboard at the scheduled time</string>
+    <string name="clipboard_auto_clear_enabled_title">Use clipboard auto clear</string>
+    <string name="clipboard_auto_clear_timeout_disable_clipboard">Disable clipboard</string>
 </resources>

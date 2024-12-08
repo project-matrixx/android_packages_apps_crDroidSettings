@@ -743,7 +743,7 @@
     <string name="bluetooth_timeout">Χρονικό όριο Bluetooth</string>
     <string name="bluetooth_timeout_summary">Να μην απενεργοποιείται αυτόματα το Bluetooth</string>
     <string name="bluetooth_timeout_summary_auto">Το Bluetooth θα απενεργοποιηθεί μετά από <xliff:g id="timeout_description">%1$s</xliff:g> εάν δεν υπάρχουν συνδεδεμένες συσκευές</string>
-    <!-- Timeouts -->
+    <!-- Custom Timeouts -->
     <string name="custom_timeout_summary_never">Ποτέ</string>
     <string name="custom_timeout_summary_5secs">5 δευτερόλεπτα</string>
     <string name="custom_timeout_summary_10secs">10 δευτερόλεπτα</string>
@@ -764,6 +764,8 @@
     <string name="custom_timeout_summary_36hours">36 ώρες</string>
     <string name="custom_timeout_summary_48hours">48 ώρες</string>
     <string name="custom_timeout_summary_72hours">72 ώρες</string>
+    <!-- Default Timeouts -->
+    <string name="custom_timeout_summary_1hour_def">1 ώρα (Προεπιλογή)</string>
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_ap_band_title">Συχνότητα Σημείου Πρόσβασης</string>
     <string name="wifi_hotspot_hidden_ssid_title">Κρυφό δίκτυο</string>
@@ -940,7 +942,7 @@
     <string name="lockscreen_weather_category">Καιρός</string>
     <string name="lockscreen_weather_title">Ενημέρωση καιρού</string>
     <string name="lockscreen_weather_summary">Εμφάνιση τρέχουσας ενημέρωσης καιρού</string>
-    <string name="lockscreen_weather_enabled_info">Απαιτεί την ενεργοποίηση της υπηρεσίας καιρού</string>
+    <string name="lockscreen_weather_enabled_info">Απαιτεί διαμορφωμένη προσαρμοσμένη υπηρεσία καιρού και απενεργοποιημένο το smartspace</string>
     <string name="lockscreen_weather_location_title">Τρέχουσα τοποθεσία</string>
     <string name="lockscreen_weather_location_summary">Εμφάνιση καιρού της τρέχουσας τοποθεσίας</string>
     <string name="lockscreen_weather_text_title">Τρέχουσα κατάσταση</string>
@@ -1166,8 +1168,16 @@
     <string name="doze_gesture_ambient_summary">Εμφάνιση οθόνης περιβάλλοντος αντί για πλήρη αφύπνιση της οθόνης</string>
     <string name="gesture_wake_ambient">Εμφάνιση Οθόνης περιβάλλοντος</string>
     <string name="gesture_wake">Πλήρης αφύπνιση</string>
+    <!-- Sidebar -->
+    <string name="sidebar_title">Πλαϊνή μπάρα</string>
+    <string name="sidebar_summary">Γρήγορο άνοιγμα εφαρμογών σε αιωρούμενο παράθυρο</string>
+    <!-- Smartspace -->
+    <string name="lockscreen_smartspace_title">Smartspace</string>
+    <string name="lockscreen_smartspace_summary">Εμφάνιση Google Smartspace όταν είναι διαθέσιμο</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">Αυτόματη εκκαθάριση πρόχειρου</string>
-    <string name="clipboard_auto_clear_timeout_summary">Το πρόχειρο θα εκκαθαριστεί αυτόματα μετά από <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="clipboard_auto_clear_timeout_summary2">Το πρόχειρο δεν θα καθαρίσει αυτόματα</string>
+    <string name="clipboard_auto_clear_timeout_title">Clipboard auto clear timeout</string>
+    <string name="clipboard_auto_clear_title">Clipboard auto clear</string>
+    <string name="clipboard_auto_clear_summary">Automatically clear clipboard at the scheduled time</string>
+    <string name="clipboard_auto_clear_enabled_title">Use clipboard auto clear</string>
+    <string name="clipboard_auto_clear_timeout_disable_clipboard">Disable clipboard</string>
 </resources>

@@ -743,7 +743,7 @@
     <string name="bluetooth_timeout">Bluetooth-időkorlát</string>
     <string name="bluetooth_timeout_summary">Ne kapcsolódjon ki automatikusan a Bluetooth</string>
     <string name="bluetooth_timeout_summary_auto">Ha nincs csatlakoztatott eszköz, a Bluetooth <xliff:g id="timeout_description">%1$s</xliff:g> elteltével kapcsol ki</string>
-    <!-- Timeouts -->
+    <!-- Custom Timeouts -->
     <string name="custom_timeout_summary_never">Soha</string>
     <string name="custom_timeout_summary_5secs">5 másodperc</string>
     <string name="custom_timeout_summary_10secs">10 másodperc</string>
@@ -764,6 +764,8 @@
     <string name="custom_timeout_summary_36hours">36 óra</string>
     <string name="custom_timeout_summary_48hours">48 óra</string>
     <string name="custom_timeout_summary_72hours">72 óra</string>
+    <!-- Default Timeouts -->
+    <string name="custom_timeout_summary_1hour_def">1 óra (alapértelmezett)</string>
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_ap_band_title">AP-sáv</string>
     <string name="wifi_hotspot_hidden_ssid_title">Rejtett hálózat</string>
@@ -940,7 +942,7 @@
     <string name="lockscreen_weather_category">Időjárás</string>
     <string name="lockscreen_weather_title">Az \'Időjárás\" frissítése</string>
     <string name="lockscreen_weather_summary">A jelenlegi tartózkodási hely adatait frissíti</string>
-    <string name="lockscreen_weather_enabled_info">Az időjárás-szolgáltatás engedélyezése szükséges</string>
+    <string name="lockscreen_weather_enabled_info">Kötelező egy egyéni időjárás-szolgáltatás konfigurálása és a Smartspace letiltása.</string>
     <string name="lockscreen_weather_location_title">Jelenlegi tartózkodási hely</string>
     <string name="lockscreen_weather_location_summary">A jelenlegi tartózkodási hely adatait jeleníti meg</string>
     <string name="lockscreen_weather_text_title">Jelenlegi időjárás</string>
@@ -1168,8 +1170,16 @@
     <string name="doze_gesture_ambient_summary">\'Környezeti kijelző\', a képernyő teljes ébresztése helyett</string>
     <string name="gesture_wake_ambient">Környezeti ébresztés</string>
     <string name="gesture_wake">Teljes ébresztés</string>
+    <!-- Sidebar -->
+    <string name="sidebar_title">Oldalsáv</string>
+    <string name="sidebar_summary">Gyorsal indíthat alkalmazásokat a felugró oldalsávból</string>
+    <!-- Smartspace -->
+    <string name="lockscreen_smartspace_title">Google Smartspace</string>
+    <string name="lockscreen_smartspace_summary">Ha elérhető, akkor megjeleníti</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">Automatikus vágólapkiürítés</string>
-    <string name="clipboard_auto_clear_timeout_summary"><xliff:g id="timeout_description">%1$s</xliff:g> múlva automatikusan törlődni fog a vágólap tartalma</string>
-    <string name="clipboard_auto_clear_timeout_summary2">A vágólap nem törlődik automatikusan</string>
+    <string name="clipboard_auto_clear_timeout_title">A kiürítés időkorlátja</string>
+    <string name="clipboard_auto_clear_title">Automatikus vágólapkiürítés</string>
+    <string name="clipboard_auto_clear_summary">A vágólap automatikus ürítése egy előre ütemezett időpontban</string>
+    <string name="clipboard_auto_clear_enabled_title">Az \'Automatikus vágólapkiürítés\' használata</string>
+    <string name="clipboard_auto_clear_timeout_disable_clipboard">A Vágólap letiltása</string>
 </resources>

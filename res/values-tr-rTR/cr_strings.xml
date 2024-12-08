@@ -743,7 +743,7 @@
     <string name="bluetooth_timeout">Bluetooth zaman aşımı</string>
     <string name="bluetooth_timeout_summary">Bluetooth\'u otomatik olarak kapatma</string>
     <string name="bluetooth_timeout_summary_auto">Hiçbir cihaz bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Bluetooth kapanacak</string>
-    <!-- Timeouts -->
+    <!-- Custom Timeouts -->
     <string name="custom_timeout_summary_never">Asla</string>
     <string name="custom_timeout_summary_5secs">5 saniye</string>
     <string name="custom_timeout_summary_10secs">10 saniye</string>
@@ -764,6 +764,8 @@
     <string name="custom_timeout_summary_36hours">36 saat</string>
     <string name="custom_timeout_summary_48hours">48 saat</string>
     <string name="custom_timeout_summary_72hours">72 saat</string>
+    <!-- Default Timeouts -->
+    <string name="custom_timeout_summary_1hour_def">1 saat (varsayılan)</string>
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_ap_band_title">Erişim Noktası Bant Adı</string>
     <string name="wifi_hotspot_hidden_ssid_title">Gizli ağ</string>
@@ -940,7 +942,7 @@
     <string name="lockscreen_weather_category">Hava durumu</string>
     <string name="lockscreen_weather_title">Hava durumu güncellemeleri</string>
     <string name="lockscreen_weather_summary">Geçerli hava durumu güncellemesini görüntüle</string>
-    <string name="lockscreen_weather_enabled_info">Hava durumu hizmetinin etkinleştirilmesi gerekir</string>
+    <string name="lockscreen_weather_enabled_info">Bunun için özel bir hava durumu servisi ayarlanmalı ve Smartspace devre dışı olmalı</string>
     <string name="lockscreen_weather_location_title">Mevcut konum</string>
     <string name="lockscreen_weather_location_summary">Mevcut hava durumu konumunu göster</string>
     <string name="lockscreen_weather_text_title">Geçerli durum</string>
@@ -1166,8 +1168,16 @@
     <string name="doze_gesture_ambient_summary">Ekranı tamamen uyandırmak yerine ortam ekranını göster</string>
     <string name="gesture_wake_ambient">Ortam ekranını göster</string>
     <string name="gesture_wake">Tamamen uyan</string>
+    <!-- Sidebar -->
+    <string name="sidebar_title">Kenar Çubuğu</string>
+    <string name="sidebar_summary">Uygulamaları hızlı biçimde yüzen pencerede açın</string>
+    <!-- Smartspace -->
+    <string name="lockscreen_smartspace_title">Smartspace</string>
+    <string name="lockscreen_smartspace_summary">Uygun olduğunda Google Smartspace gösterilsin</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">Panonun otomatik temizlenmesi</string>
-    <string name="clipboard_auto_clear_timeout_summary">Pano <xliff:g id="timeout_description">%1$s</xliff:g> sonra otomatikman temizlenecek</string>
-    <string name="clipboard_auto_clear_timeout_summary2">Pano otomatikman temizlenmeyecek</string>
+    <string name="clipboard_auto_clear_timeout_title">Pano otomatik temizlenme zaman aşımı</string>
+    <string name="clipboard_auto_clear_title">Panonun otomatik temizlenmesi</string>
+    <string name="clipboard_auto_clear_summary">Planlanmış sürede panoyu otomatikman temizle</string>
+    <string name="clipboard_auto_clear_enabled_title">Pano otomatik temizlemeyi kullan</string>
+    <string name="clipboard_auto_clear_timeout_disable_clipboard">Panoyu kullanımdan çıkar</string>
 </resources>

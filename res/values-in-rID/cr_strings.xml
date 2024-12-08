@@ -742,7 +742,7 @@
     <string name="bluetooth_timeout">Batas waktu Bluetooth</string>
     <string name="bluetooth_timeout_summary">Jangan matikan Bluetooth secara otomatis</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth akan dimatikan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada perangkat terhubung</string>
-    <!-- Timeouts -->
+    <!-- Custom Timeouts -->
     <string name="custom_timeout_summary_never">Jangan pernah</string>
     <string name="custom_timeout_summary_5secs">5 detik</string>
     <string name="custom_timeout_summary_10secs">10 detik</string>
@@ -763,6 +763,8 @@
     <string name="custom_timeout_summary_36hours">36 jam</string>
     <string name="custom_timeout_summary_48hours">48 jam</string>
     <string name="custom_timeout_summary_72hours">72 jam</string>
+    <!-- Default Timeouts -->
+    <string name="custom_timeout_summary_1hour_def">1 jam (Bawaan)</string>
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_ap_band_title">Pita AP</string>
     <string name="wifi_hotspot_hidden_ssid_title">Jaringan tersembunyi</string>
@@ -938,7 +940,7 @@
     <string name="lockscreen_weather_category">Cuaca</string>
     <string name="lockscreen_weather_title">Pembaruan info cuaca</string>
     <string name="lockscreen_weather_summary">Tampilkan cuaca saat ini menurut lokasi</string>
-    <string name="lockscreen_weather_enabled_info">Membutuhkan layanan cuaca untuk diaktifkan</string>
+    <string name="lockscreen_weather_enabled_info">Memerlukan layanan cuaca khusus yang dikonfigurasi dan ruangpintar dinonaktifkan</string>
     <string name="lockscreen_weather_location_title">Lokasi saat ini</string>
     <string name="lockscreen_weather_location_summary">Tampilkan cuaca saat ini menurut lokasi</string>
     <string name="lockscreen_weather_text_title">Kondisi saat ini</string>
@@ -1162,8 +1164,16 @@
     <string name="doze_gesture_ambient_summary">Tampilkan Tampilan Ambient tanpa sepenuhnya membangunkan layar</string>
     <string name="gesture_wake_ambient">Tampilkan Lingkungan</string>
     <string name="gesture_wake">Bangun sepenuhnya</string>
+    <!-- Sidebar -->
+    <string name="sidebar_title">Bilah sisi</string>
+    <string name="sidebar_summary">Buka aplikasi dengan cepat di jendela mengambang</string>
+    <!-- Smartspace -->
+    <string name="lockscreen_smartspace_title">Ruang pintar</string>
+    <string name="lockscreen_smartspace_summary">Tampilkan Ruangpintar Google saat tersedia</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">Hapus otomatis clipboard</string>
-    <string name="clipboard_auto_clear_timeout_summary">Clipboard akan otomatis dihapus setelah <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="clipboard_auto_clear_timeout_summary2">Clipboard tidak akan dihapus secara otomatis</string>
+    <string name="clipboard_auto_clear_timeout_title">Batas waktu penghapusan otomatis clipboard</string>
+    <string name="clipboard_auto_clear_title">Hapus otomatis clipboard</string>
+    <string name="clipboard_auto_clear_summary">Hapus clipboard secara otomatis pada waktu yang dijadwalkan</string>
+    <string name="clipboard_auto_clear_enabled_title">Gunakan pembersihan otomatis clipboard</string>
+    <string name="clipboard_auto_clear_timeout_disable_clipboard">Nonaktifkan Clipboard</string>
 </resources>

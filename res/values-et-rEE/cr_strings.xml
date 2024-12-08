@@ -743,7 +743,7 @@
     <string name="bluetooth_timeout">Bluetoothi ajalõpp</string>
     <string name="bluetooth_timeout_summary">Ära lülita Bluetoothi automaatselt välja</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth lülitatakse automaatselt pärast <xliff:g id="timeout_description">%1$s</xliff:g> välja, kui seadmeid pole ühendatud</string>
-    <!-- Timeouts -->
+    <!-- Custom Timeouts -->
     <string name="custom_timeout_summary_never">Mitte kunagi</string>
     <string name="custom_timeout_summary_5secs">5 sekundit</string>
     <string name="custom_timeout_summary_10secs">10 sekundit</string>
@@ -764,6 +764,8 @@
     <string name="custom_timeout_summary_36hours">36 hours</string>
     <string name="custom_timeout_summary_48hours">48 hours</string>
     <string name="custom_timeout_summary_72hours">72 hours</string>
+    <!-- Default Timeouts -->
+    <string name="custom_timeout_summary_1hour_def">1 hour (Default)</string>
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_ap_band_title">AP Band</string>
     <string name="wifi_hotspot_hidden_ssid_title">Peidetud võrk</string>
@@ -940,7 +942,7 @@
     <string name="lockscreen_weather_category">Ilm</string>
     <string name="lockscreen_weather_title">Ilmateade</string>
     <string name="lockscreen_weather_summary">Kuva praegust ilmateadet</string>
-    <string name="lockscreen_weather_enabled_info">Nõuab ilmateenuse lubamist</string>
+    <string name="lockscreen_weather_enabled_info">Requires custom weather service configured and smartspace disabled</string>
     <string name="lockscreen_weather_location_title">Praegune asukoht</string>
     <string name="lockscreen_weather_location_summary">Kuva praeguse ilmateate asukoht</string>
     <string name="lockscreen_weather_text_title">Praegused ilmaolud</string>
@@ -1166,8 +1168,16 @@
     <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
     <string name="gesture_wake_ambient">Show Ambient</string>
     <string name="gesture_wake">Fully wake</string>
+    <!-- Sidebar -->
+    <string name="sidebar_title">Sidebar</string>
+    <string name="sidebar_summary">Quickly open apps in a floating window</string>
+    <!-- Smartspace -->
+    <string name="lockscreen_smartspace_title">Smartspace</string>
+    <string name="lockscreen_smartspace_summary">Show Google Smartspace when available</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">Clipboard auto clear</string>
-    <string name="clipboard_auto_clear_timeout_summary">Clipboard will be automatically cleared after <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="clipboard_auto_clear_timeout_summary2">Clipboard will not automatically clear</string>
+    <string name="clipboard_auto_clear_timeout_title">Lõikepuhvri automaatse tühjendamise aegumine</string>
+    <string name="clipboard_auto_clear_title">Lõikepuhvri automaatne tühjendamine</string>
+    <string name="clipboard_auto_clear_summary">Tühjenda lõikepuhver määratud ajal automaatselt</string>
+    <string name="clipboard_auto_clear_enabled_title">Kasuta lõikepuhvri automaatset tühjendamist</string>
+    <string name="clipboard_auto_clear_timeout_disable_clipboard">Keela lõikepuhver</string>
 </resources>

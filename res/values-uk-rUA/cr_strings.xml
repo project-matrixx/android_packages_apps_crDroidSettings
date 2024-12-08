@@ -745,7 +745,7 @@
     <string name="bluetooth_timeout">Час вимкнення Bluetooth</string>
     <string name="bluetooth_timeout_summary">Не вимикати Bluetooth автоматично</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth буде вимкнено після <xliff:g id="timeout_description">%1$s</xliff:g> якщо пристрої не під\'єднані</string>
-    <!-- Timeouts -->
+    <!-- Custom Timeouts -->
     <string name="custom_timeout_summary_never">Ніколи</string>
     <string name="custom_timeout_summary_5secs">5 секунд</string>
     <string name="custom_timeout_summary_10secs">10 секунд</string>
@@ -766,6 +766,8 @@
     <string name="custom_timeout_summary_36hours">36 годин</string>
     <string name="custom_timeout_summary_48hours">48 годин</string>
     <string name="custom_timeout_summary_72hours">72 годин</string>
+    <!-- Default Timeouts -->
+    <string name="custom_timeout_summary_1hour_def">1 година (за замовчуванням)</string>
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_ap_band_title">Діапазон частот точки доступу</string>
     <string name="wifi_hotspot_hidden_ssid_title">Прихована мережа</string>
@@ -944,7 +946,7 @@
     <string name="lockscreen_weather_category">Погода</string>
     <string name="lockscreen_weather_title">Оновлення погоди</string>
     <string name="lockscreen_weather_summary">Відображати поточне оновлення погоди</string>
-    <string name="lockscreen_weather_enabled_info">Вимагає включену службу погоди</string>
+    <string name="lockscreen_weather_enabled_info">Потребує настроюваної служби погоди і смартфон вимкнений</string>
     <string name="lockscreen_weather_location_title">Інформація про місто за місцерозташуванням</string>
     <string name="lockscreen_weather_location_summary">Показувати поточну погоду</string>
     <string name="lockscreen_weather_text_title">Поточний стан</string>
@@ -1172,8 +1174,16 @@
     <string name="doze_gesture_ambient_summary">Показати Активний екран замість повного пробудження екрану</string>
     <string name="gesture_wake_ambient">Показати Активний екран</string>
     <string name="gesture_wake">Повністю пробудження</string>
+    <!-- Sidebar -->
+    <string name="sidebar_title">Бічна панель</string>
+    <string name="sidebar_summary">Швидко відкривати додатки у плаваючому вікні</string>
+    <!-- Smartspace -->
+    <string name="lockscreen_smartspace_title">Smartspace</string>
+    <string name="lockscreen_smartspace_summary">Показувати Google Smartspace за наявності</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">Очистити буфер обміну</string>
-    <string name="clipboard_auto_clear_timeout_summary">Буфер обміну буде автоматично очищено після <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="clipboard_auto_clear_timeout_summary2">Буфер обміну не очищиться автоматично</string>
+    <string name="clipboard_auto_clear_timeout_title">Скинути тайм-аут буфера обміну</string>
+    <string name="clipboard_auto_clear_title">Очистити буфер обміну</string>
+    <string name="clipboard_auto_clear_summary">Автоматично очищати буфер обміну запланованим часом</string>
+    <string name="clipboard_auto_clear_enabled_title">Використовувати авто очищення буфера обміну</string>
+    <string name="clipboard_auto_clear_timeout_disable_clipboard">Вимкнути буфер обміну</string>
 </resources>

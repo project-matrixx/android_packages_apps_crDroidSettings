@@ -745,7 +745,7 @@
     <string name="bluetooth_timeout">Časový limit Bluetooth</string>
     <string name="bluetooth_timeout_summary">Nevypínat Bluetooth automaticky</string>
     <string name="bluetooth_timeout_summary_auto">Pokud nejsou připojena žádná zařízení, Bluetooth se vypne za <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <!-- Timeouts -->
+    <!-- Custom Timeouts -->
     <string name="custom_timeout_summary_never">Nikdy</string>
     <string name="custom_timeout_summary_5secs">5 sekund</string>
     <string name="custom_timeout_summary_10secs">10 sekund</string>
@@ -766,6 +766,8 @@
     <string name="custom_timeout_summary_36hours">36 hodin</string>
     <string name="custom_timeout_summary_48hours">48 hodin</string>
     <string name="custom_timeout_summary_72hours">72 hodin</string>
+    <!-- Default Timeouts -->
+    <string name="custom_timeout_summary_1hour_def">1 hodina (výchozí)</string>
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_ap_band_title">Kapela AP</string>
     <string name="wifi_hotspot_hidden_ssid_title">Skrytá síť</string>
@@ -944,7 +946,7 @@
     <string name="lockscreen_weather_category">Počasí</string>
     <string name="lockscreen_weather_title">Aktualizace počasí</string>
     <string name="lockscreen_weather_summary">Zobrazit aktuální aktualizaci počasí</string>
-    <string name="lockscreen_weather_enabled_info">Vyžaduje povolení služby počasí</string>
+    <string name="lockscreen_weather_enabled_info">Vyžaduje mít nakonfigurovanou vlastní službu počasí a zakázaný smartspace</string>
     <string name="lockscreen_weather_location_title">Aktuální poloha</string>
     <string name="lockscreen_weather_location_summary">Zobrazit aktuální polohu počasí</string>
     <string name="lockscreen_weather_text_title">Aktuální stav</string>
@@ -1163,16 +1165,24 @@
     <string name="statusbar_extra_padding_top_title">Horní odsazení</string>
     <string name="statusbar_extra_padding_end_title">Konec odsazení</string>
     <!-- Wi-Fi MAC address randomization -->
-    <string name="wifi_per_connection_random_mac_addr">Use per-connection randomized MAC (default)</string>
-    <string name="wifi_per_network_random_mac_addr">Use per-network randomized MAC</string>
+    <string name="wifi_per_connection_random_mac_addr">Použít pro jednotlivá připojení náhodnou MAC (výchozí)</string>
+    <string name="wifi_per_network_random_mac_addr">Použít pro jednotlivé sítě náhodnou MAC</string>
     <string name="wifi_device_mac_addr">Použít MAC zařízení</string>
     <!-- Ambient wake -->
     <string name="doze_gesture_ambient_title">Zobrazit ambientní displej</string>
     <string name="doze_gesture_ambient_summary">Zobrazit Ambientní displej namísto úplného probuzení obrazovky</string>
     <string name="gesture_wake_ambient">Zobrazit ambientní displej</string>
     <string name="gesture_wake">Úplně probudit</string>
+    <!-- Sidebar -->
+    <string name="sidebar_title">Postranní panel</string>
+    <string name="sidebar_summary">Rychle otevřete aplikace z plovoucího okna</string>
+    <!-- Smartspace -->
+    <string name="lockscreen_smartspace_title">Smartspace</string>
+    <string name="lockscreen_smartspace_summary">Zobrazit Google Smartspace, pokud je k dispozici</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">Automatické vymazání schránky</string>
-    <string name="clipboard_auto_clear_timeout_summary">Schránka bude automaticky vymazána po uplynutí <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="clipboard_auto_clear_timeout_summary2">Schránka nebude automaticky vymazána</string>
+    <string name="clipboard_auto_clear_timeout_title">Časový limit automatického vymazání schránky</string>
+    <string name="clipboard_auto_clear_title">Automatické vymazání schránky</string>
+    <string name="clipboard_auto_clear_summary">Automaticky vymazat schránku v naplánovaném čase</string>
+    <string name="clipboard_auto_clear_enabled_title">Použít automatické vymazání schránky</string>
+    <string name="clipboard_auto_clear_timeout_disable_clipboard">Zakázat schránku</string>
 </resources>

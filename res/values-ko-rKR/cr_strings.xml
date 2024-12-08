@@ -742,7 +742,7 @@
     <string name="bluetooth_timeout">블루투스 시간 제한</string>
     <string name="bluetooth_timeout_summary">블루투스를 자동으로 끄지 않음</string>
     <string name="bluetooth_timeout_summary_auto">연결된 기기가 없으면 <xliff:g id="timeout_description">%1$s</xliff:g> 뒤에 블루투스를 자동으로 끕니다.</string>
-    <!-- Timeouts -->
+    <!-- Custom Timeouts -->
     <string name="custom_timeout_summary_never">없음</string>
     <string name="custom_timeout_summary_5secs">5초</string>
     <string name="custom_timeout_summary_10secs">10초</string>
@@ -763,6 +763,8 @@
     <string name="custom_timeout_summary_36hours">36시간</string>
     <string name="custom_timeout_summary_48hours">48시간</string>
     <string name="custom_timeout_summary_72hours">72시간</string>
+    <!-- Default Timeouts -->
+    <string name="custom_timeout_summary_1hour_def">1시간(기본값)</string>
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_ap_band_title">AP 밴드</string>
     <string name="wifi_hotspot_hidden_ssid_title">네트워크 숨기기</string>
@@ -938,7 +940,7 @@
     <string name="lockscreen_weather_category">날씨</string>
     <string name="lockscreen_weather_title">날씨 업데이트</string>
     <string name="lockscreen_weather_summary">현재 날씨 업데이트 표시</string>
-    <string name="lockscreen_weather_enabled_info">날씨 서비스가 켜져 있어야 합니다.</string>
+    <string name="lockscreen_weather_enabled_info">이 기능을 사용하려면 사용자 지정 날씨 서비스가 설정되어 있어야 하며, Smartspace는 꺼져 있어야 합니다.</string>
     <string name="lockscreen_weather_location_title">현재 위치</string>
     <string name="lockscreen_weather_location_summary">현재 날씨 위치 표시</string>
     <string name="lockscreen_weather_text_title">현재 상태</string>
@@ -1163,8 +1165,16 @@
     <string name="doze_gesture_ambient_summary">화면을 완전히 켜지 않고 절전 모드 자동 해제 화면 표시</string>
     <string name="gesture_wake_ambient">절전 모드 자동 해제 표시</string>
     <string name="gesture_wake">화면 켜기</string>
+    <!-- Sidebar -->
+    <string name="sidebar_title">사이드바</string>
+    <string name="sidebar_summary">플로팅 창에서 빠르게 앱 열기</string>
+    <!-- Smartspace -->
+    <string name="lockscreen_smartspace_title">Smartspace</string>
+    <string name="lockscreen_smartspace_summary">Google Smartspace를 사용할 수 있을 경우 표시합니다.</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">클립보드 자동 비우기</string>
-    <string name="clipboard_auto_clear_timeout_summary"><xliff:g id="timeout_description">%1$s</xliff:g> 뒤에 클립보드를 자동으로 비웁니다.</string>
-    <string name="clipboard_auto_clear_timeout_summary2">클립보드를 자동으로 비우지 않습니다.</string>
+    <string name="clipboard_auto_clear_timeout_title">Clipboard auto clear timeout</string>
+    <string name="clipboard_auto_clear_title">Clipboard auto clear</string>
+    <string name="clipboard_auto_clear_summary">Automatically clear clipboard at the scheduled time</string>
+    <string name="clipboard_auto_clear_enabled_title">Use clipboard auto clear</string>
+    <string name="clipboard_auto_clear_timeout_disable_clipboard">Disable clipboard</string>
 </resources>
