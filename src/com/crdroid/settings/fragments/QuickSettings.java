@@ -166,8 +166,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         Settings.System.putIntForUser(resolver,
                 Settings.System.SECURE_LOCKSCREEN_QS_DISABLED, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
-                Settings.System.NOTIFICATION_MATERIAL_DISMISS, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TRANSPARENCY, 100, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TILE_ANIMATION_STYLE, 0, UserHandle.USER_CURRENT);
