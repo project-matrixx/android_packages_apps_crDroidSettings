@@ -1174,4 +1174,14 @@ Mantén presionado para establecer</string>
     <string name="clipboard_auto_clear_summary">Borrar automáticamente el portapapeles a la hora programada</string>
     <string name="clipboard_auto_clear_enabled_title">Usar el borrado automático del portapapeles</string>
     <string name="clipboard_auto_clear_timeout_disable_clipboard">Desactivar el portapapeles</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Aumentar volumen de timbre</string>
+    <string name="increasing_ring_min_volume_title">Volumen inicial</string>
+    <string name="increasing_ring_ramp_up_time_title">Tiempo de incremento</string>
+    <!-- Disable DNS for VPN -->
+    <string name="vpn_enforce_dns_title">Desactivar para VPN</string>
+    <string name="vpn_enforce_dns_summary">Desactivar el DNS privado cuando está conectado a una VPN y restaurarlo al desconectar</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
 </resources>

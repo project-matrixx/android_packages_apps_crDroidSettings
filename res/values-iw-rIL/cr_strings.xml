@@ -1181,4 +1181,14 @@
     <string name="clipboard_auto_clear_summary">ניקוי אוטומטי של הלוח בהתאם לזמן הקצוב</string>
     <string name="clipboard_auto_clear_enabled_title">ביצוע ניקוי אוטומטי של הלוח</string>
     <string name="clipboard_auto_clear_timeout_disable_clipboard">השבתת הלוח</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">עוצמת צלצול מתגברת</string>
+    <string name="increasing_ring_min_volume_title">עוצמת צלצול התחלתית</string>
+    <string name="increasing_ring_ramp_up_time_title">אורך זמן ההגברה</string>
+    <!-- Disable DNS for VPN -->
+    <string name="vpn_enforce_dns_title">השבתה עבור VPN</string>
+    <string name="vpn_enforce_dns_summary">השבתת ה-VPN הפרטי כאשר מחוברים ל-VPN והפעלתו מחדש בעת הניתוק</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
 </resources>

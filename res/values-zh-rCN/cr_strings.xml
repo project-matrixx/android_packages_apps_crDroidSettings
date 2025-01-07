@@ -1161,15 +1161,25 @@
     <string name="gesture_wake_ambient">显示环境</string>
     <string name="gesture_wake">完全唤醒</string>
     <!-- Sidebar -->
-    <string name="sidebar_title">Sidebar</string>
+    <string name="sidebar_title">侧边栏</string>
     <string name="sidebar_summary">在悬浮窗快速打开应用</string>
     <!-- Smartspace -->
     <string name="lockscreen_smartspace_title">智能空间</string>
     <string name="lockscreen_smartspace_summary">可用时展示Google智能空间</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">Clipboard auto clear timeout</string>
-    <string name="clipboard_auto_clear_title">Clipboard auto clear</string>
-    <string name="clipboard_auto_clear_summary">Automatically clear clipboard at the scheduled time</string>
-    <string name="clipboard_auto_clear_enabled_title">Use clipboard auto clear</string>
+    <string name="clipboard_auto_clear_timeout_title">剪贴板自动清除超时</string>
+    <string name="clipboard_auto_clear_title">自动清除剪贴板</string>
+    <string name="clipboard_auto_clear_summary">在预定时间自动清除剪贴板</string>
+    <string name="clipboard_auto_clear_enabled_title">使用剪贴板自动清除</string>
     <string name="clipboard_auto_clear_timeout_disable_clipboard">禁用剪贴板</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">增加铃声音量</string>
+    <string name="increasing_ring_min_volume_title">启动声音</string>
+    <string name="increasing_ring_ramp_up_time_title">铃声渐强时长</string>
+    <!-- Disable DNS for VPN -->
+    <string name="vpn_enforce_dns_title">为 VPN 禁用</string>
+    <string name="vpn_enforce_dns_summary">当连接到 VPN 时禁用私有DNS 并在断开连接时恢复</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">在铃声模式之间循环</string>
+    <string name="prevent_ringing_option_cycle_summary">开启 (循环铃声模式)</string>
 </resources>

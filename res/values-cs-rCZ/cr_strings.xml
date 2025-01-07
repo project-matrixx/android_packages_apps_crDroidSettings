@@ -1179,4 +1179,14 @@
     <string name="clipboard_auto_clear_summary">Automaticky vymazat schránku v naplánovaném čase</string>
     <string name="clipboard_auto_clear_enabled_title">Použít automatické vymazání schránky</string>
     <string name="clipboard_auto_clear_timeout_disable_clipboard">Zakázat schránku</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Zvyšující se hlasitost vyzvánění</string>
+    <string name="increasing_ring_min_volume_title">Počáteční hlasitost</string>
+    <string name="increasing_ring_ramp_up_time_title">Doba zesilování</string>
+    <!-- Disable DNS for VPN -->
+    <string name="vpn_enforce_dns_title">Zakázat pro VPN</string>
+    <string name="vpn_enforce_dns_summary">Zakázat soukromou DNS při připojení k VPN a obnovit při odpojení</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Procházet mezi režimy</string>
+    <string name="prevent_ringing_option_cycle_summary">Zap. (procházet mezi režimy)</string>
 </resources>

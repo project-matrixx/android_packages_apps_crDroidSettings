@@ -1179,4 +1179,14 @@
     <string name="clipboard_auto_clear_summary">Автоматично очищати буфер обміну запланованим часом</string>
     <string name="clipboard_auto_clear_enabled_title">Використовувати авто очищення буфера обміну</string>
     <string name="clipboard_auto_clear_timeout_disable_clipboard">Вимкнути буфер обміну</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Наростаюча гучність дзвінка</string>
+    <string name="increasing_ring_min_volume_title">Початкова гучність</string>
+    <string name="increasing_ring_ramp_up_time_title">Час наростання</string>
+    <!-- Disable DNS for VPN -->
+    <string name="vpn_enforce_dns_title">Вимкнути для VPN</string>
+    <string name="vpn_enforce_dns_summary">Вимкнути приватний DNS, коли підключений до VPN та відновлювати при відключенні</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Перемикання між режимами</string>
+    <string name="prevent_ringing_option_cycle_summary">Увімкнено (перемик. між режимами)</string>
 </resources>

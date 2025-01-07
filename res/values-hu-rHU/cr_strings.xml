@@ -1175,4 +1175,14 @@
     <string name="clipboard_auto_clear_summary">A vágólap automatikus ürítése egy előre ütemezett időpontban</string>
     <string name="clipboard_auto_clear_enabled_title">Az \'Automatikus vágólapkiürítés\' használata</string>
     <string name="clipboard_auto_clear_timeout_disable_clipboard">A Vágólap letiltása</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Emelkedő csengőhang</string>
+    <string name="increasing_ring_min_volume_title">Kezdeti hangerő</string>
+    <string name="increasing_ring_ramp_up_time_title">Felfutási idő</string>
+    <!-- Disable DNS for VPN -->
+    <string name="vpn_enforce_dns_title">Letiltás VPN használatkor</string>
+    <string name="vpn_enforce_dns_summary">Ha VPN-hez csatlakozik, kapcsolja ki a privát DNS-t, de állítsa helyre kapcsolatbontás után</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Üzemmódok közötti váltás</string>
+    <string name="prevent_ringing_option_cycle_summary">Be (üzemmódok közötti váltás)</string>
 </resources>
