@@ -81,6 +81,13 @@
             android:targetClass="ink.kscope.parallelspace.MainActivity" />
     </Preference> -->
 
+    <com.crdroid.settings.preferences.GlobalSettingSwitchPreference
+        android:key="pm_downgrade_allowed"
+        android:icon="@drawable/ic_arrow_down_box"
+        android:title="@string/app_downgrade_title"
+        android:summary="@string/app_downgrade_summary"
+        android:defaultValue="false"/>
+
     <!-- Sidebar -->
     <Preference
         android:key="sidebar"
