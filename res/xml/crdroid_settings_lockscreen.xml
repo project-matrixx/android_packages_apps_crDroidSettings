@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -141,12 +141,21 @@
             android:defaultValue="true"
             android:dependency="lockscreen_weather_enabled" />
 
-        <!--<com.crdroid.settings.preferences.SystemSettingSwitchPreference
-            android:key="lockscreen_weather_style"
-            android:icon="@drawable/ic_weather"
-            android:title="@string/lockscreen_weather_style_title"
-            android:summary="@string/lockscreen_weather_style_summary"
-            android:dependency="lockscreen_weather_enabled" />-->
+        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_weather_wind_info"
+            android:icon="@drawable/ic_weather_windy"
+            android:title="@string/lockscreen_weather_wind_info_title"
+            android:summary="@string/lockscreen_weather_wind_info_summary"
+            android:defaultValue="true"
+            android:dependency="lockscreen_weather_enabled" />
+
+        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_weather_humidity_info"
+            android:icon="@drawable/ic_water_percent"
+            android:title="@string/lockscreen_weather_humidity_info_title"
+            android:summary="@string/lockscreen_weather_humidity_info_summary"
+            android:defaultValue="true"
+            android:dependency="lockscreen_weather_enabled" />
 
     </PreferenceCategory>
 
