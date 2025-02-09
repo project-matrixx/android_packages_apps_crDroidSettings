@@ -24,4 +24,13 @@
             android:defaultValue="false"/>
     </PreferenceCategory>
 
+          <Preference
+            android:title="@string/status_bar_show_lyric_ext_title"
+            android:summary="@string/status_bar_lyric_ext_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="io.cjybyjk.statuslyricext"
+                android:targetClass="io.cjybyjk.statuslyricext.SettingsActivity" />
+        </Preference>
+
 </PreferenceScreen>

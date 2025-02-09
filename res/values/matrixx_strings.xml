@@ -43,4 +43,6 @@
     <string name="status_bar_lyric_options_title">Options</string>
     <string name="disguise_props_for_music_app_title">Disguise device for music apps</string>
     <string name="disguise_props_for_music_app_summary">Disguise device in some music applications for support status bar lyric. After changing this toggle, you have to restart applications for the change to take effect.</string>
+    <string name="status_bar_show_lyric_ext_title">Status Lyric Ext Settings</string>
+    <string name="status_bar_lyric_ext_summary">Extra status bar lyric changes, set up permission manually to make it work properly</string>
 </resources>
