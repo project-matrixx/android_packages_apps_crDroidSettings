@@ -60,6 +60,20 @@
         android:fragment="com.crdroid.settings.fragments.ui.doze.EdgeLightSettings"
         android:dependency="doze_enabled" />
 
+    <com.crdroid.settings.preferences.SystemSettingListPreference
+        android:key="ambient_show_settings"
+        android:title="@string/ambient_bottom_title"
+        android:entries="@array/ambient_bottom_entries"
+        android:entryValues="@array/ambient_bottom_values"
+        android:summary="@string/ambient_bottom_summary"
+        android:defaultValue="0" />
+
+    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        android:key="ambient_show_settings_icons"
+        android:title="@string/display_icon_title"
+        android:summary="@string/display_icon_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="doze_sensor"
         android:title="@string/doze_sensor_title" >
